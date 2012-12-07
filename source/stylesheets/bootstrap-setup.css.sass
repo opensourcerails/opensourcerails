@@ -1,0 +1,114 @@
+//= require "vendor/bootstrap/bootstrap"
+// require "vendor/bootstrap/bootstrap-responsive"
+
+@import "mixins"
+
+// override popover
+.popover
+  padding: 0
+  border: none
+  width: 340px
+
+  .mini-avatar
+    background-repeat: none
+    background-position: center
+    background-size: cover
+    height: 50px
+    width: 50px
+    margin-right: 6px
+    border-radius: 50px
+    position: absolute
+    top: 9px
+    left: 9px
+    +box-shadow(0 0 10px rgba(1, 1, 1, 0.3) inset)
+
+  .popover-inner
+    .popover-title
+      background: #A73A48
+      +linear-gradient(top, #A02632, #A73A48)
+      text-rendering: optimizeLegibility
+      height: 32px
+      color: #fff
+      font-size: 20px
+
+      h3
+        color: #fff
+        font-weight: 600
+        font-size: 20px
+        margin: 0
+        position: absolute
+        top: 5px
+        &.with-avatar
+          left: 75px
+
+    .popover-content
+      padding: 5px 10px
+      p
+        line-height: 1.4
+        font-weight: 300
+        font-size: 15px
+      .connected
+        position: absolute
+        top: 54px
+        right: 7px
+      .notes
+        margin-top: 30px
+      .popover-actions
+        margin-top: 10px
+        padding: 6px 0
+        border-top: 1px dotted #aaa
+      .map-address
+        position: absolute
+        top: 55px
+        left: 173px
+        width: 160px
+
+
+// style the contacts autocomplete
+.dropdown-menu.contacts-autocomplete
+  li
+    a
+      line-height: 1.5
+      font-size: 18px
+      font-family: $source-sans
+      font-weight: 300
+      border-bottom: 1px solid #ccc
+      +padding-vertical(8px)
+      padding-left: 48px
+      padding-right: 60px
+      position: relative
+      display: block
+      strong
+        font-weight: 600
+
+      .avatar
+        width: 34px
+        height: 34px
+        position: absolute
+        left: 5px
+        top: 0
+        bottom: 0
+        margin: auto
+        background-color: #CEE2EF
+        background-size: 100%
+        background-repeat: no-repeat
+        border-radius: 2px
+
+      .connected-via-icons
+        position: absolute
+        right: 6px
+        top: 0
+        bottom: 0
+        height: 18px
+        margin: auto
+        .connected-via-icon
+          margin-left: 3px
+
+
+
+    &:last-child a
+      border-bottom: 0
+
+    &.active a
+      background-color: #EFF7FF
+      color: #5582AA

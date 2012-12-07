@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Typicons';
+	src: url('/assets/fonts/typicons-regular-webfont.eot');
+	src: url('/assets/fonts/typicons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/typicons-regular-webfont.woff') format('woff'),
+		url('/assets/fonts/typicons-regular-webfont.ttf') format('truetype'),
+		url('/assets/fonts/typicons-regular-webfont.svg#TypiconsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.typicn {
+	font-family: "Typicons", sans-serif;
+	/* Reduce blur on icons in chrome, opera, safari and ios. */
+	/* This is hacky & bad. Maybe possible for firefox, not sure yet. */
+	-webkit-font-smoothing: antialiased;	-o-transform: scale(1);
+}
+
+.typicn.location:before {content: "A";}
+.typicn.phone:before {content: "B";}
+.typicn.home:before {content: "C";}
+.typicn.camera:before {content: "D";}
+.typicn.left:before {content: "E";}
+.typicn.right:before {content: "F";}
+.typicn.up:before {content: "G";}
+.typicn.down:before {content: "H";}
+.typicn.refresh:before {content: "I";}
+.typicn.sync:before {content: "J";}
+.typicn.loop:before {content: "K";}
+.typicn.repeat:before {content: "L";}
+.typicn.shuffle:before {content: "M";}
+.typicn.rss:before {content: "N";}
+.typicn.cog:before {content: "O";}
+.typicn.spanner:before {content: "P";}
+.typicn.barChart:before {content: "Q";}
+.typicn.pieChart:before {content: "R";}
+.typicn.lineChart:before {content: "S";}
+.typicn.views:before {content: "T";}
+.typicn.zoomIn:before {content: "V";}
+.typicn.zoomOut:before {content: "U";}
+.typicn.export:before {content: "W";}
+.typicn.user:before {content: "X";}
+.typicn.group:before {content: "Y";}
+.typicn.microphone:before {content: "Z";}
+.typicn.globe:before {content: "a";}
+.typicn.thumbsUp:before {content: "b";}
+.typicn.thumbsDown:before {content: "c";}
+.typicn.tag:before {content: "d";}
+.typicn.tab:before {content: "e";}
+.typicn.warning:before {content: "f";}
+.typicn.tick:before {content: "g";}
+.typicn.beta:before {content: "h";}
+.typicn.unlock:before {content: "i";}
+.typicn.lock:before {content: "j";}
+.typicn.eject:before {content: "k";}
+.typicn.move:before {content: "l";}
+.typicn.expand:before {content: "m";}
+.typicn.cancel:before {content: "n";}
+.typicn.power:before {content: "o";}
+.typicn.compass:before {content: "p";}
+.typicn.radar:before {content: "q";}
+.typicn.directions:before {content: "r";}
+.typicn.pin:before {content: "s";}
+.typicn.mute:before {content: "t";}
+.typicn.volume:before {content: "u";}
+.typicn.world:before {content: "v";}
+.typicn.write:before {content: "w";}
+.typicn.minus:before {content: "x";}
+.typicn.equals:before {content: "y";}
+.typicn.feed:before {content: "z";}
+.typicn.batteryNone:before {content: "0";}
+.typicn.batteryLow:before {content: "1";}
+.typicn.batteryMid:before {content: "2";}
+.typicn.batteryHigh:before {content: "3";}
+.typicn.batteryPower:before {content: "4";}
+.typicn.plus:before {content: "5";}
+.typicn.times:before {content: "6";}
+.typicn.next:before {content: "7";}
+.typicn.previous:before {content: "8";}
+.typicn.edit:before {content: "9";}
+.typicn.cut:before {content: "'";}
+.typicn.anchor:before {content: "(";}
+.typicn.bookmark:before {content: ")";}
+.typicn.music:before {content: "*";}
+.typicn.puzzle:before {content: "+";}
+.typicn.archive:before {content: ",";}
+.typicn.mobile:before {content: "-";}
+.typicn.contrast:before {content: ".";}
+.typicn.brightness:before {content: "/";}
+.typicn.flag:before {content: "{";}
+.typicn.info:before {content: "|";}
+.typicn.unknown:before {content: "}";}
+.typicn.chat:before {content: "~";}
+.typicn.mail:before {content: "[";}
+.typicn.message:before {content: "\005C";}
+.typicn.delete:before {content: "]";}
+.typicn.backspace:before {content: "^";}
+.typicn.infinity:before {content: "_";}
+.typicn.key:before {content: "$";}
+.typicn.time:before {content: "%";}
+.typicn.grid:before {content: "\0022";}
+.typicn.list:before {content: "\0023";}
+.typicn.heart:before {content: ";";}
+.typicn.star:before {content: "=";}
+.typicn.back:before {content: "?";}
+.typicn.forward:before {content: "@";}

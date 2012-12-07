@@ -1,0 +1,11 @@
+setup do
+  run "bundle install"
+end
+
+tab "Server" do
+  run "bundle exec middleman server -p 3000"
+end
+
+tab "Assets" do
+  run "bundle exec guard -g assets"
+end

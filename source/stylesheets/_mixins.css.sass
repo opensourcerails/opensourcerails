@@ -1,0 +1,61 @@
+@import "bourbon"
+@import "fonts"
+@import "screens"
+
+@import "css3/gradients"
+
+@mixin image-replace($image-url, $width: null, $height: null)
+  +hide-text
+  background-image: image-url($image-url)
+  background-repeat: no-repeat
+  background-position: center center
+  @if $width
+    width: $width
+  @if $height
+    height: $height
+
+@mixin retina-replace($image-url, $width: null, $height: null)
+  +image-replace($image-url, $width, $height)
+  +retina-only
+    background-image: image-url(gsub(gsub(gsub(gsub($image-url, ".jpeg", "@2x.jpeg"), ".gif", "@2x.gif"), ".jpg", "@2x.jpg"), ".png", "@2x.png"))
+    background-size: 100%
+
+@mixin vertical-center
+  margin-left: auto
+  margin-right: auto
+
+@mixin horizontal-center
+  margin-left: auto
+  margin-right: auto
+
+@mixin square($size)
+  width: $size
+  height: $size
+
+@mixin match-icons
+  [class^="icon-"], [class*=" icon-"]
+    @content
+
+@mixin match-spans
+  [class*="span"]
+    @content
+
+@mixin html5-inputs
+  #{$all-text-inputs}
+    @content
+
+@mixin margin-vertical($pad)
+  margin-top: $pad
+  margin-bottom: $pad
+
+@mixin margin-horizontal($pad)
+  margin-left: $pad
+  margin-right: $pad
+
+@mixin padding-vertical($pad)
+  padding-top: $pad
+  padding-bottom: $pad
+
+@mixin padding-horizontal($pad)
+  padding-left: $pad
+  padding-right: $pad

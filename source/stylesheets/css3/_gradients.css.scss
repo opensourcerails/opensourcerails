@@ -1,0 +1,19 @@
+// PUT SCSS GRADIENTS HERE
+
+// strategy:
+// 1) generate it with CSS3Toolkit.app or a webbased tool (http://gradients.glrzad.com/)
+// 2) take a screenshot of the gradient (so we can know what to expect)
+// 3) create a mixin, and give it a name
+// 4) paste the css3 code in from the tool
+// 5) add a hosted link to the screenshot to the mixin comments
+
+@mixin lizi-ridiculous-gradient {
+  // pasted in from CSS3Toolkit.app
+  // preview: http://cl.ly/image/433c1y0i1a3U
+  background-color: #2ABFFF;
+  background-image: -o-linear-gradient(12deg , rgb(51,204,255) 0%, rgb(51,204,255) 29%, rgb(0,255,21) 57%, rgb(51,204,255) 81%, rgb(51,204,255) 100%);
+  background-image: -moz-linear-gradient(12deg , rgb(51,204,255) 0%, rgb(51,204,255) 29%, rgb(0,255,21) 57%, rgb(51,204,255) 81%, rgb(51,204,255) 100%);
+  background-image: -webkit-linear-gradient(12deg , rgb(51,204,255) 0%, rgb(51,204,255) 29%, rgb(0,255,21) 57%, rgb(51,204,255) 81%, rgb(51,204,255) 100%);
+  background-image: -ms-linear-gradient(12deg , rgb(51,204,255) 0%, rgb(51,204,255) 29%, rgb(0,255,21) 57%, rgb(51,204,255) 81%, rgb(51,204,255) 100%);
+  background-image: linear-gradient(12deg , rgb(51,204,255) 0%, rgb(51,204,255) 29%, rgb(0,255,21) 57%, rgb(51,204,255) 81%, rgb(51,204,255) 100%);
+}

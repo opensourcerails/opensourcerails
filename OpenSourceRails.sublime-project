@@ -1,0 +1,17 @@
+{
+  "folders": [{
+    "path": ".",
+    "folder_exclude_patterns": ["tmp", "build", "log", "public/assets", "tmp/mail", ".sass-cache"],
+    "file_exclude_patterns": ["*.sublime-workspace"]
+  }],
+
+  "settings": {
+
+  },
+
+  // TODO: add build systems here. HOW?
+  "build_systems": [{
+    "name": "List",
+    "cmd": ["ls"]
+  }]
+}
