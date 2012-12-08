@@ -2,6 +2,7 @@ group 'assets' do
 
   # Reload the browser as asset files change
   guard 'livereload', :apply_js_live => false do
+    watch(%r{^data/.+\.(yml)$})
     watch(%r{^source/.+\.(erb|haml)$})
     watch(%r{^(source).+\.(css|js|html)$})
     watch(%r{^(source/.+\.css)\.s[ac]ss$}) { |m| m[1] }

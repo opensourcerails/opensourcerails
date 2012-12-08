@@ -1,14 +1,23 @@
----
-title: OpenSourceRails
----
-
 - add_body_class "landing-page"
 
-.container
-  .header
-
+.header
+  .container
     %a.logo{:href => "/"}
       OpenSourceRails
 
+    .slogan
+      Announcing the relaunch of
+      %strong
+        Open Source Rails
+
+    %a.mini-logo{:href => "/"}
+
+
+.projects
+  .container
+    - data.projects.each do |project|
+      = partial "project", :locals => {:project => project}
+
+  -# = partial "layouts/mailchimp_signup"
 
 
