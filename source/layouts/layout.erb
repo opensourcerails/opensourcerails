@@ -13,7 +13,8 @@
     <%= js_settings %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="opensourcerails <%= body_classes %>">
+    <%= partial "layouts/grid_debug" %>
     <%= yield %>
   </body>
 </html>

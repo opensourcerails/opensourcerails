@@ -74,6 +74,9 @@ end
 require "lib/application_helpers"
 helpers ApplicationHelpers
 
+require "lib/tag_helpers"
+helpers TagHelpers
+
 page "/bootstrap/*", :layout => "bootstrap_layout"
 
 # Build-specific configuration

@@ -1,0 +1,67 @@
+@import "mixins"
+
+#footnotes_holder
+  background-color: #fff
+  z-index: 100000
+  position: relative
+  padding: 5px 20px
+  position: fixed
+  bottom: 0
+  left: 0
+  right: 0
+  #footnotes_debug
+    margin-top: 0
+    fieldset
+      max-height: 200px
+      overflow: auto
+      +box-sizing(border-box)
+
+// setup grid lines for debugging
+.grid-debug .grid-lines
+  display: block !important
+
+.grid-lines
+  display: none
+  .row
+    position: fixed
+    top: 0
+    bottom: 0
+    z-index: 10000
+    [class*="span"]
+      background-color: rgba(green,0.3)
+      text-align: center
+      height: 100%
+      line-height: 30px
+
+    .grid-lines
+      margin-top: 0
+      margin-bottom: 0
+      [class*="span"]
+        background-color: #ccc
+
+  .media-query-options
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    z-index: 10001
+    color: #fff
+    text-align: right
+  .media-query-option
+    display: none
+
+.grid-debug
+  .debug-black
+    background: black
+  .debug-white
+    background: white
+  .debug-red
+    background: red
+  .debug-green
+    background: green
+  .debug-blue
+    background: blue
+  .debug-purple
+    background: purple
+  .debug-yellow
+    background: yellow

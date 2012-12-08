@@ -4,6 +4,16 @@ module ApplicationHelpers
     environment == :development
   end
 
+  def body_classes
+    (@body_classes || []).join(" ")
+  end
+
+  def add_body_class(body_class)
+    @body_classes ||= []
+    @body_classes << body_class
+    @body_classes
+  end
+
   def js_settings
     client_settings = {}
     client_settings["debug_mode"] = development?
