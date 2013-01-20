@@ -1,7 +1,99 @@
+-
+  id: "spree"
+  title: "Spree"
+  tagline: "a flexible e-commerce platform"
+  github_project: "spree/spree"
+  site_url: "http://spreecommerce.com/"
+  screencast_url: ""
+  categories:
+    - "E-Commerce"
+    - "Rails Engine"
+  description: |
+
+-
+  id: "gitlab"
+  title: "GitLab"
+  tagline: "self hosted Git management"
+  github_project: "gitlabhq/gitlabhq"
+  site_url: "http://gitlabhq.com/"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+    - "Developers"
+  description: |
+
+-
+  id: "diaspora"
+  title: "Diaspora"
+  tagline: "community-run, distributed social-network"
+  github_project: "diaspora/diaspora"
+  site_url: "https://joindiaspora.com/"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+  description: |
+
+-
+  id: "redmine"
+  title: "Redmine"
+  tagline: "web based project management"
+  github_project: "edavis10/redmine"
+  site_url: "http://www.redmine.org/"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+    - "Project Management"
+  description: |
+
+-
+  id: "fatfreecrm"
+  title: "Fat Free CRM"
+  tagline: ""
+  github_project: "fatfreecrm/fat_free_crm"
+  site_url: "http://www.fatfreecrm.com/"
+  screencast_url: ""
+  categories:
+    - "Business"
+  description: |
+
+-
+  id: "selfstarter"
+  title: "Self Starter"
+  tagline: "roll your own crowdfunding"
+  github_project: ""
+  site_url: "http://selfstarter.us/"
+  screencast_url: "lockitron/selfstarter"
+  categories:
+    - "E-Commerce"
+  description: |
+
+-
+  id: "locomotivecms"
+  title: "Locomotive CMS"
+  tagline: "a powerful liquid powered CMS platform"
+  github_project: "locomotivecms/engine"
+  site_url: "http://locomotivecms.com/"
+  screencast_url: ""
+  categories:
+    - "CMS/Blogging"
+    - "Rails Engine"
+  description: |
+
+-
+  id: "obtvse"
+  title: "Obtvse"
+  tagline: "clean and simple markdown blog, inspired by Svbtle"
+  github_project: "natew/obtvse"
+  site_url: "http://obtvse.herokuapp.com/"
+  screencast_url: ""
+  categories:
+    - "CMS/Blogging"
+  description: |
 
 -
   id: "squash"
   title: "Squash"
+  tagline: ""
   tagline: "exception reporting and bug analysis by Square"
   github_project: "SquareSquash/web"
   site_url: "http://squash.io/"
@@ -28,15 +120,64 @@
   categories:
     - "Error Reporting"
 
+-
+  id: "errbit"
+  title: "Errbit"
+  tagline: "open source, self-hosted error catcher"
+  github_project: "errbit/errbit"
+  site_url: ""
+  screencast_url: ""
+  demo_url: "http://errbit-demo.herokuapp.com/"
+  demo_notes: "Email: demo@errbit-demo.herokuapp.com / Password: password"
+  categories:
+    - "Error Reporting"
+  description: |
 
 -
-  id: "project1"
-  title: "Hello2"
+  id: "fulcrum"
+  title: "Fulcrum"
+  tagline: "agile project planning, clone of Pivotal Tracker"
+  github_project: "malclocke/fulcrum"
+  site_url: "http://wholemeal.co.nz/projects/fulcrum.html"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+    - "Project Management"
+  description: |
 
 -
-  id: "project2"
-  title: "Hello3"
+  id: "kandan"
+  title: "Kandan"
+  tagline: "web based team chat"
+  github_project: "cloudfuji/kandan"
+  site_url: "http://kandan.me/"
+  # embed: |
+  #   <script type="text/javascript" id="vidyard_embed_code_bcoiYmbh6rAKsDgZt5qr3Q" src="//embed.vidyard.com/embed/bcoiYmbh6rAKsDgZt5qr3Q/inline?width=1000&height=563&v=2.2"></script>
+  screencast_url: "http://embed.vidyard.com/share/bcoiYmbh6rAKsDgZt5qr3Q"
+  categories:
+    - "Collaboration"
+  description: |
+
 
 -
-  id: "project3"
-  title: "Hello4"
+  id: "chiliproject"
+  title: "ChiliProject"
+  tagline: "web based project management (forked from redmine)"
+  github_project: "chiliproject/chiliproject"
+  site_url: "https://www.chiliproject.org/"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+    - "Project Management"
+  description: |
+
+-
+  id: "copycopter"
+  tagline: "let your clients do the copy writing"
+  title: "Copycopter"
+  github_project: "copycopter/copycopter-server"
+  site_url: "http://copycopter.com/"
+  screencast_url: "http://media.railscasts.com/assets/episodes/videos/336-copycopter.mp4"
+  categories:
+    - "CMS/Blogging"
+  description: |

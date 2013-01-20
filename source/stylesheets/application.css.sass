@@ -11,15 +11,26 @@ a.logo
   width: 148px
   height: 148px
 
+.topline
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  height: 7px
+  +linear-gradient(top, #325579, #325579, #173661)
+
+
 section.main
   .inner
     position: relative
 
   &.innerpage
-    .inner .logo
-      position: absolute
-      left: -30px
-      top: -45px
+    .inner
+      padding-top: 7px
+      .logo
+        position: absolute
+        left: -30px
+        top: -38px
 
 
   .portfolio-cats
@@ -80,6 +91,7 @@ section.main.header
   position: relative
   font-weight: 200
   min-height: 143px
+  z-index: 10
 
   h1, h2
     color: #fff
@@ -104,6 +116,9 @@ section.main.header
   p
     text-align: center
     padding-top: 5px
+    .btn-small
+      vertical-align: 6px
+      margin-left: 5px
   .logo
     position: absolute
     top: 0
@@ -120,7 +135,7 @@ section.main.header
 
   &.announcement
     min-height: 81px
-    margin-bottom: 35px
+    margin-bottom: 20px
     .close-announcement
       position: absolute
       right: 20px
@@ -144,3 +159,6 @@ footer
   .widget.newsletter
     margin-bottom: 30px
 
+
+.hidden
+  display: none

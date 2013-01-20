@@ -4,8 +4,11 @@ module ProjectHelpers
   end
 
   def project_cover_image(project)
-    # TODO:
-    "/images/simplething/samples/sample.jpg"
+    if File.exists?("#{root}/source/screenshots/#{project.id}/cover.jpg")
+      "/screenshots/#{project.id}/cover.jpg"
+    else
+      "/images/simplething/samples/sample.jpg"
+    end
   end
 
 
