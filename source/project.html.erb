@@ -2,8 +2,8 @@
   <div class="inner">
     <a href="/" class="logo">Open Source Rails</a>
 
-    <h1>Fat Free CRM</h1>
-    <h2>A simple, unadulterated free CRM tool</h2>
+    <h1><%= project.title %></h1>
+    <h2><%= project.tagline %></h2>
 
   </div>
 </section>
@@ -61,14 +61,14 @@
         </nav>
         <div class="slides_container">
           <div class="row-fluid clearfix">
-            <%= partial "project" %>
-            <%= partial "project" %>
-            <%= partial "project" %>
+            <%= partial "project_listing", :locals => {:project => project} %>
+            <%= partial "project_listing", :locals => {:project => project} %>
+            <%= partial "project_listing", :locals => {:project => project} %>
           </div>
           <div class="row-fluid clearfix">
-            <%= partial "project" %>
-            <%= partial "project" %>
-            <%= partial "project" %>
+            <%= partial "project_listing", :locals => {:project => project} %>
+            <%= partial "project_listing", :locals => {:project => project} %>
+            <%= partial "project_listing", :locals => {:project => project} %>
           </div>
 
         </div>

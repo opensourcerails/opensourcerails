@@ -1,0 +1,9 @@
+<div class="item span4">
+  <a href="<%= project_url(project) %>" class="hover"><span class='magnify'></span></a>
+  <a class="image" href="<%= project_url(project) %>">
+    <img src="<%= project_cover_image(project) %>" alt="" />
+  </a>
+
+  <h4><a href="<%= project_url(project) %>"><%= project.title %></a></h4>
+  <small><a href="<%= project_url(project) %>"><%= project.tagline %></a></small>
+</div>

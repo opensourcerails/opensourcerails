@@ -43,6 +43,12 @@ activate :bourbon
 
 activate :directory_indexes
 
+# http://middlemanapp.com/blogging/
+activate :blog do |blog|
+  blog.paginate = true
+  blog.layout = "blog_layout"
+end
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
@@ -75,9 +81,9 @@ end
 require "lib/project_helpers"
 helpers ProjectHelpers
 
-
 # proxy pages
 data.projects.each do |project|
+  # puts "generating project: #{project.id}"
   proxy "/#{project.id}/index.html", "/project.html", :locals => { :project => project }
 end
 

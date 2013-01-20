@@ -30,10 +30,13 @@
 
 
 -
+  id: "project1"
   title: "Hello2"
 
 -
+  id: "project2"
   title: "Hello3"
 
 -
+  id: "project3"
   title: "Hello4"

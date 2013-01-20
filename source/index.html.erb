@@ -1,3 +1,4 @@
+<% projects = data.projects %>
 <section class="main header announcement">
   <div class="inner">
     <p>Announcing the relaunch of <strong>Open Source Rails...</strong></p>
@@ -24,21 +25,15 @@
 
     <!-- START items -->
     <div class="portfolio items small clearfix">
-      <div class="row-fluid clearfix">
-        <%= partial "project" %>
-        <%= partial "project" %>
-        <%= partial "project" %>
-      </div>
-      <div class="row-fluid clearfix">
-        <%= partial "project" %>
-        <%= partial "project" %>
-        <%= partial "project" %>
-      </div>
-      <div class="row-fluid clearfix">
-        <%= partial "project" %>
-        <%= partial "project" %>
-        <%= partial "project" %>
-      </div>
+
+      <% projects.in_groups_of(3, false).each do |project_group| %>
+        <div class="row-fluid clearfix">
+          <% project_group.each do |project| %>
+            <%= partial "project_listing", :locals => {:project => project} %>
+          <% end %>
+        </div>
+      <% end %>
+
     </div>
     <!-- END items -->
 
