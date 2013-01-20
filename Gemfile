@@ -7,6 +7,7 @@ gem "middleman-bourbon"
 gem "middleman-deploy"
 
 gem 'handlebars_assets'
+gem 'octokit'
 
 group :development do
   gem "debugger"
@@ -17,7 +18,6 @@ group :development do
   gem "guard-livereload", ">= 0.4.0"
   gem "rack-livereload", ">= 0.3.4"
   gem "guard-shell"
-
 
   # terminiator is nice
   gem "terminitor", ">= 0.6.0", :git => "https://github.com/railsjedi/terminitor.git"

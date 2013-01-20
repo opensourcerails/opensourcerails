@@ -40,6 +40,10 @@ GEM
     eventmachine (1.0.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    faraday_middleware (0.9.0)
+      faraday (>= 0.7.4, < 0.9)
     ffi (1.1.5)
     fssm (0.2.9)
     git (1.2.5)
@@ -62,6 +66,7 @@ GEM
       execjs (>= 1.2.9)
       sprockets (>= 2.0.3)
       tilt
+    hashie (1.2.0)
     hike (1.2.1)
     http_router (0.10.2)
       rack (>= 1.0.0)
@@ -109,6 +114,15 @@ GEM
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.8.0)
     multi_json (1.4.0)
+    multipart-post (1.1.5)
+    netrc (0.7.7)
+    octokit (1.22.0)
+      addressable (~> 2.2)
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      hashie (~> 1.2)
+      multi_json (~> 1.3)
+      netrc (~> 0.7.7)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -172,6 +186,7 @@ DEPENDENCIES
   middleman (>= 3.0.6)
   middleman-bourbon
   middleman-deploy
+  octokit
   rack-livereload (>= 0.3.4)
   rake
   terminitor (>= 0.6.0)!
