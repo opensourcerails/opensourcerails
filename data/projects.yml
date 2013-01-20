@@ -4,6 +4,7 @@
   tagline: "a flexible e-commerce platform"
   github_project: "spree/spree"
   site_url: "http://spreecommerce.com/"
+  demo_url: "http://spreecommerce.com/demo"
   screencast_url: ""
   categories:
     - "E-Commerce"

@@ -1,3 +1,5 @@
+<% screenshots = project_screenshots(project) %>
+
 <section class="main header">
   <div class="inner">
     <a href="/" class="logo">Open Source Rails</a>
@@ -36,19 +38,19 @@
         <div class="r">
           <div class="gallery">
 
-            <ul class="thumbs clearfix">
-              <li><a href="#1"><img src="/images/simplething/samples/sample.jpg" alt="" /></a></li>
-              <li><a href="#2"><img src="/images/simplething/samples/sample.jpg" alt="" /></a></a></li>
-              <li><a href="#3"><img src="/images/simplething/samples/sample.jpg" alt="" /></a></a></li>
-              <li><a href="#4"><img src="/images/simplething/samples/sample.jpg" alt="" /></a></a></li>
-            </ul>
+            <div class="scroll-thumbs">
+              <ul class="thumbs clearfix">
+                <% screenshots.each do |img| %>
+                  <li><a href="#<%= img[:index] %>"><img src="<%= img[:src] %>" alt="" /></a></li>
+                <% end %>
+              </ul>
+            </div>
 
             <div class="gallerycont">
               <div class="slides_container">
-                <a href="#"><img src="/images/simplething/samples/sample.jpg" alt="" width="576" height="445" /></a>
-                <a href="#"><img src="/images/simplething/samples/sample.jpg" alt="" width="576" height="1000" /></a>
-                <a href="#"><img src="/images/simplething/samples/sample.jpg" alt="" width="576" height="400" /></a>
-                <a href="#"><img src="/images/simplething/samples/sample.jpg" alt="" width="576" height="445" /></a>
+                <% screenshots.each do |img| %>
+                  <a href="#"><img src="<%= img[:src] %>" alt="" width="<%= img[:width] %>" height="<%= img[:height] %>" /></a>
+                <% end %>
               </div>
               <a href="#" class="sprev"></a>
               <a href="#" class="snext"></a>
