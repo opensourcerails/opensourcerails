@@ -12,13 +12,14 @@ a.logo
   height: 148px
 
 section.main
+  .inner
+    position: relative
+
   &.innerpage
-    .inner
-      position: relative
-      .logo
-        position: absolute
-        left: -30px
-        top: -45px
+    .inner .logo
+      position: absolute
+      left: -30px
+      top: -45px
 
 
   .portfolio-cats
@@ -120,7 +121,23 @@ section.main.header
   &.announcement
     min-height: 81px
     margin-bottom: 35px
+    .close-announcement
+      position: absolute
+      right: 20px
+      top: 20px
+      padding: 5px 8px
+      height: 20px
+      background: rgba(#fff, 0.2)
+      line-height: 19px
+      +border-radius(20px)
+      opacity: 0.5
 
+      display: block
+      cursor: pointer
+      font-weight: bold
+      font-size: 24px
+      &:hover
+        opacity: 1.0
 
 // overrides
 footer

@@ -17,3 +17,12 @@ $ ->
     paginationClass: 'thumbs'
     generatePagination: false
 
+  $(".close-announcement").click (e) ->
+    e.preventDefault()
+    $(this).hide()
+
+    $(".announcement")
+        .find(".train-icon").hide().end()
+        .css({'min-height': "auto"}).slideUp()
+
+    # TODO: set a cookie with the current epoch time so the announcement stays hidden
