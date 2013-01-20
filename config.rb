@@ -41,6 +41,8 @@ require "active_support/all"
 
 activate :bourbon
 
+activate :directory_indexes
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
@@ -70,12 +72,14 @@ activate :deploy do |deploy|
   deploy.path = "/home/opensourcerails4/new.opensourcerails.com"
 end
 
-# helpers
-require "lib/application_helpers"
-helpers ApplicationHelpers
+require "lib/project_helpers"
+helpers ProjectHelpers
 
-require "lib/tag_helpers"
-helpers TagHelpers
+
+# proxy pages
+data.projects.each do |project|
+  proxy "/#{project.id}/index.html", "/project.html", :locals => { :project => project }
+end
 
 # Build-specific configuration
 configure :build do

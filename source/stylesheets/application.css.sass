@@ -1,9 +1,25 @@
+//= require "./import_fonts"
 //= require "./simplething/index"
 //= require_self
 
 @import "mixins"
 
+a.logo
+  background: url(/images/logo.png) no-repeat
+  display: block
+  text-indent: -9999px
+  width: 148px
+  height: 148px
+
 section.main
+  &.innerpage
+    .inner
+      position: relative
+      .logo
+        position: absolute
+        left: -30px
+        top: -45px
+
 
   .portfolio-cats
     background: none
@@ -53,6 +69,58 @@ section.main
         p
           margin-top: 0
           font-size: 20px
+
+section.main.header
+  +linear-gradient(top, #325579, #325579, #173661)
+  padding: 0
+  color: #fff
+  font-size: 26px
+  +sourcesans
+  position: relative
+  font-weight: 200
+  min-height: 143px
+
+  h1, h2
+    color: #fff
+    font-family: $sourcesans
+    margin: 0
+    line-height: 1.1
+    text-align: center
+    margin: auto
+    max-width: 600px
+  h1
+    font-size: 44px
+    font-weight: 900
+    letter-spacing: -1px
+    padding-top: 30px
+
+  h2
+    font-size: 26px
+    font-weight: 200
+
+  strong
+    font-weight: 400
+  p
+    text-align: center
+    padding-top: 5px
+  .logo
+    position: absolute
+    top: 0
+
+  .train-icon
+    width: 76px
+    height: 76px
+    background: url("/images/itsatrain.png") no-repeat
+    margin: auto
+    position: absolute
+    bottom: -38px
+    left: 0
+    right: 0
+
+  &.announcement
+    min-height: 81px
+    margin-bottom: 35px
+
 
 // overrides
 footer

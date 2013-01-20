@@ -1,8 +1,21 @@
-// fonts
+// these fonts are imported in vendor/fonts
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:800)
-@import url(http://fonts.googleapis.com/css?family=Merriweather)
+$sourcesans: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', Arial, sans-serif
+@mixin sourcesans
+  font-family: $sourcesans
+  font-weight: 400
 
-$source-sans: 'Source Sans Pro', Helvetica, Arial, sans-serif
-$raleway: 'Raleway', Helvetica, Arial, sans-serif
-$merriweather: 'merriweather', Palatino, Garamond, serif
+// $pt-serif: 'PT Serif', Palatino, Georgia, serif
+// @mixin pt-serif
+//   font-family: $pt-serif
+//   font-weight: 700
+
+// $merriweather: 'Merriweather', Palatino, Georgia, serif
+// @mixin merriweather
+//   font-family: $merriweather
+//   font-weight: 400
+
+// $raleway: 'Raleway', 'Helvetica', Arial, sans-serif
+// @mixin raleway
+//   font-family: $raleway
+//   font-weight: 800
