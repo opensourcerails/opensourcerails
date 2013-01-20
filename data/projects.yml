@@ -93,7 +93,6 @@
 -
   id: "squash"
   title: "Squash"
-  tagline: ""
   tagline: "exception reporting and bug analysis by Square"
   github_project: "SquareSquash/web"
   site_url: "http://squash.io/"
@@ -173,11 +172,21 @@
 
 -
   id: "copycopter"
-  tagline: "let your clients do the copy writing"
   title: "Copycopter"
+  tagline: "let your clients do the copy writing"
   github_project: "copycopter/copycopter-server"
   site_url: "http://copycopter.com/"
   screencast_url: "http://media.railscasts.com/assets/episodes/videos/336-copycopter.mp4"
   categories:
     - "CMS/Blogging"
+  description: |
+
+-
+  id: "lobsters"
+  title: "Lobste.rs"
+  tagline: "link-aggregation site, inspired by Hacker News"
+  github_project: "jcs/lobsters"
+  site_url: "http://lobste.rs"
+  categories:
+    - "Collaboration"
   description: |
