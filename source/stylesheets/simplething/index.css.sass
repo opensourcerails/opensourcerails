@@ -4,45 +4,6 @@
 //= require "./fonts/leaguegothic/stylesheet.css"
 //= require_self
 
-@import "mixins"
-
-section.main
-
-  .portfolio-cats
-    max-width: 600px
-    +margin-horizontal(auto)
-
-
-  .portfolio
-    .item
-      &:hover
-        text-shadow: 0 0 10px rgba(yellow, 0.4)
-      a
-        color: inherit
-      .hover
-        display: block
-        .magnify
-          left: 0
-          right: 0
-          margin: auto
-
-  .submit-project
-    margin-top: 50px
-    margin-left: auto
-    margin-right: 10px
-    img
-      margin-top: 20px
-    .submit-project-btn
-      margin-top: -27px
-      margin-left: -65px
-      span
-        text-transform: uppercase
-        text-shadow: 0 0 5px #fff
-        font-weight: bold
-        font-family: Helvetica
-
-// overrides
-footer
-  .widget.newsletter
-    margin-bottom: 30px
-
+// set background
+body, div.wrapper, section.main.innerpage
+  background: #F4F6FF

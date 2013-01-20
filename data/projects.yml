@@ -1,9 +1,32 @@
 
 -
-  title: "Hello1"
+  id: "squash"
+  title: "Squash"
+  tagline: "exception reporting and bug analysis by Square"
+  github_project: "SquareSquash/web"
+  site_url: "http://squash.io/"
+  screencast_url: "http://www.youtube.com/watch?feature=player_embedded&v=160_JLZvn-4"
   description: |
-    hello hello hello
+    Squash: A squarish bug spray
+    ============================
 
+    **An open-source project from Square**
+
+    Squash is a collection of tools that help engineers find and kill bugs in their
+    code. Squash consists of the following components:
+
+    * **Client libraries:** Client libraries for different systems (Ruby, Ruby on
+      Rails, Cocoa with Objective-C, etc.) catch and record errors when they occur,
+      then send them to the API endpoint. Client libraries can be found under the
+      [SquareSquash organization](https://github.com/SquareSquash).
+    * **Front-end:** This website displays Bug information and helps the engineer
+      find the root cause for a Bug, and fix it. It also lets engineers manage,
+      assign, and comment on Bugs, as well as view statistics about the Bug.
+    * **API endpoints:** These routes (part of the front-end app) receive exception
+      notifications from the client libraries and process them.
+
+  categories:
+    - "Error Reporting"
 
 
 -

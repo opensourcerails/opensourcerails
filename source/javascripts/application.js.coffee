@@ -1,38 +1,19 @@
-#= require "./lib"
-#= require_tree "./templates"
-#= require "./components"
-#= require "./pages"
+#= require "./simplething/libs/jquery-1.7.1.min"
+#= require "./simplething/libs/bootstrap.min"
 
-$ = jQuery
-$doc = $(document)
+#= require "./simplething/plugins/slides.jquery.js"
+#= require_self
 
-$doc.ready ->
-
-  # some keyboard shortcuts to help in debug mode
-  if Settings.client.debug_mode
-    $("body").bind "keydown", "meta+e", ->
-      $("body").toggleClass("grid-debug")
-      $("#footnotes_holder").toggle()
-      return true
-
-  # global styles go
-  $(".alert").alert()
-
-  # linkable clicks
-  $(document).on "click", ".linkable", (e) ->
-    e.preventDefault()
-    window.location = $(this).data("href")
-
-  # setup data fixed elements
-  $("[data-fixed]").each (index) ->
-    self = $(this)
-    self.fixed(top: self.data("fixed"))
-
-  # make all of the flash messages disappear
-  $('.alert[data-auto-dismiss="true"]').delay(2500).fadeOut("slow")
-
-  if Modernizr.touch
-    $("body").addClass("touch-enabled")
-  else
-    $("body").addClass("touch-disabled")
+$ ->
+  $(".gallery").slides
+    preload: true
+    effect: 'slide, fade'
+    play: 0
+    pause: 2500
+    autoHeight: true
+    currentClass: 'act'
+    prev: 'sprev'
+    next: 'snext'
+    paginationClass: 'thumbs'
+    generatePagination: false
 

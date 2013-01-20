@@ -1,138 +1,53 @@
+//= require "./simplething/index"
 //= require_self
-//= require "./bootstrap-setup"
-//= require "./loading_animations"
-//= require "./vendor/animate-custom"
-//= require "./vendor/typicons"
-
-//= require_tree "./pages"
-//= require "./components"
 
 @import "mixins"
 
-html
-  width:    100%
-  height:   100%
-  position: relative
+section.main
 
-  body
-    font-family: $source-sans
-    height:      100%
-    position:    relative
-
-  p
-    line-height: 1.6
-    font-family: $source-sans
-    font-weight: 300
-    font-size:   14px
-  a
-    color: #28B
-    &:hover
-      text-decoration: none
-
-  h4
-    font-weight: 500
-    margin: 5px 0
-  h5
-    font-weight: 100
-    a
-      border-bottom: 1px solid #eee
-
-  +phone-landscape-and-down
-    *
-      -webkit-tap-highlight-color: rgba(0,0,0,0) !important
-
-form
-  &.in-progress
-    .btn.primary
-      opacity: 0.5
-
-.container
-  position: relative
-
-
-.clear
-  clear: both
-
-.alert
-  p, li, ul, ol
-    margin-bottom: 0
-
-// Used for glyphicons
-.opalow
-  opacity: .4
-
-// utilities
-.text-left
-  text-align: left
-.text-right
-  text-align: right
-.text-center
-  text-align: center
-.float-left
-  float: left
-.float-right
-  float: right
-
-.lizi-popover
-  cursor: pointer
-
-// style google autocomplete
-.pac-container
-  .pac-item
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
-    line-height: 30px
-    font-size:   19px
-    +phone-landscape-and-down
-      font-size:   14px
-      line-height: 20px
-
-// todo: put this somewhere else?
-.picker-status
-  padding-bottom: 10px
-  min-height:     60px
-
-// page top bar
-.page-top-bar
-  background:    darkred
-  text-align:    center
-  position:      relative
-  border-bottom: 5px solid #fff
-  .top-bar-close
-    position:  absolute
-    right:     10px
-    top:       9px
-    color:     #fff
-    font-size: 25px
-    opacity:   0.8
-
-    &:hover
-      opacity: 1.0
-
-  p
-    font-size:   18px
-    margin:      0
-    padding:     0
-    padding-top: 2px
-    a
-      color: #fff
-      font-weight: normal
+  .portfolio-cats
+    background: none
+    max-width: 600px
+    +margin-horizontal(auto)
+    margin-right: 0
+    ul
+      li.label
+        vertical-align: 3px
+        margin-right: 20px
+      li:last-child
+        a
+          padding-right: 0
+          margin-right: -70px
+  .portfolio
+    .item
       &:hover
-        .link-label
-          text-decoration: underline
+        text-shadow: 0 0 10px rgba(yellow, 0.4)
+      a
+        color: inherit
+      .hover
+        display: block
+        .magnify
+          left: 0
+          right: 0
+          margin: auto
 
-      .typicn
-        vertical-align: -4px
+  .submit-project
+    margin-top: 50px
+    margin-left: auto
+    margin-right: 10px
+    img
+      margin-top: 20px
+    .submit-project-btn
+      margin-top: -27px
+      margin-left: -65px
+      span
+        text-transform: uppercase
+        text-shadow: 0 0 5px #fff
+        font-weight: bold
+        font-family: Helvetica
 
-
-//  Bootstrap overrides
-.dropdown-menu li > a:hover,
-.dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a, .dropdown-menu .active > a,
-.dropdown-menu .active > a:hover
-  background-color: #EFF4F9
-  background-image: none !important
-
-  color:            #444
-  text-decoration:  none
-
+// overrides
+footer
+  .widget.newsletter
+    margin-bottom: 30px
 
