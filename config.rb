@@ -82,6 +82,7 @@ require "lib/project_helpers"
 helpers ProjectHelpers
 
 # proxy pages
+ignore "/project.html"
 data.projects.each do |project|
   # puts "generating project: #{project.id}"
   proxy "/#{project.id}/index.html", "/project.html", :locals => { :project => project }
