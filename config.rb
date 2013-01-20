@@ -67,7 +67,7 @@ activate :deploy do |deploy|
   deploy.method = :rsync
   deploy.user = "opensourcerails4"
   deploy.host = "crate.dreamhost.com"
-  deploy.path = "/home/opensourcerails4/opensourcerails.com"
+  deploy.path = "/home/opensourcerails4/new.opensourcerails.com"
 end
 
 # helpers
