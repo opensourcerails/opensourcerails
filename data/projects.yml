@@ -60,7 +60,7 @@
   id: "selfstarter"
   title: "Self Starter"
   tagline: "roll your own crowdfunding"
-  github_project: ""
+  github_project: "lockitron/selfstarter"
   site_url: "http://selfstarter.us/"
   screencast_url: "lockitron/selfstarter"
   categories:
