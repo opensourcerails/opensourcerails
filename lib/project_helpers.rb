@@ -1,3 +1,4 @@
+# require 'image_size'
 module ProjectHelpers
   def project_url(project)
     "/#{project.id}/"
@@ -24,9 +25,12 @@ module ProjectHelpers
       img[:src] = file.gsub("#{root}/source", "")
       img[:index] = index+1
 
-      # TODO: set width/height programatically
-      img[:width] = 200
-      img[:height] = 200
+      # # set width/height programatically
+      # open(file, "rb") do |fh|
+      #   size = ImageSize.new(fh.read).get_size
+      #   img[:width] = size.first
+      #   img[:height] = size.last
+      # end
 
       imgs << img
     end

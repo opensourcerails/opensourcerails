@@ -49,7 +49,10 @@
             <div class="gallerycont">
               <div class="slides_container">
                 <% screenshots.each do |img| %>
-                  <a href="#"><img src="<%= img[:src] %>" alt="" width="<%= img[:width] %>" height="<%= img[:height] %>" /></a>
+                  <a href="#">
+                    <span class="screen-img" style="background-image: url('<%= img[:src] %>')"></span>
+                    <!-- <img src="<%= img[:src] %>" alt="" width="<%= img[:width] %>" height="<%= img[:height] %>" /> -->
+                  </a>
                 <% end %>
               </div>
               <a href="#" class="sprev"></a>

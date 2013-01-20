@@ -9,6 +9,7 @@ gem "middleman-blog"
 
 gem 'handlebars_assets'
 gem 'octokit'
+gem "imagesize"
 
 group :development do
   gem "debugger"
