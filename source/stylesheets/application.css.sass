@@ -11,13 +11,12 @@ section.main
     +margin-horizontal(auto)
     margin-right: 0
     ul
+      margin: 0
+      text-align: right
       li.label
         vertical-align: 3px
         margin-right: 20px
-      li:last-child
-        a
-          padding-right: 0
-          margin-right: -70px
+
   .portfolio
     .item
       &:hover
@@ -45,6 +44,15 @@ section.main
         text-shadow: 0 0 5px #fff
         font-weight: bold
         font-family: Helvetica
+
+  .portfolio
+    &.similar
+      padding-top: 40px
+    &.single
+      .l
+        p
+          margin-top: 0
+          font-size: 20px
 
 // overrides
 footer

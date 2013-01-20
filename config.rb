@@ -77,8 +77,6 @@ helpers ApplicationHelpers
 require "lib/tag_helpers"
 helpers TagHelpers
 
-page "/bootstrap/*", :layout => "bootstrap_layout"
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
