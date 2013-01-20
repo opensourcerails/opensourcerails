@@ -1,0 +1,5 @@
+<% user = project.github_project.to_s.split("/").first %>
+<% repo = project.github_project.to_s.split("/").last %>
+
+<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=<%= user %>&repo=<%= repo %>&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=<%= user %>&repo=<%= repo %>&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>

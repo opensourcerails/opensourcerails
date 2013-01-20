@@ -15,12 +15,15 @@
       <!-- START entry -->
       <article class="portfolio single clearfix">
         <div class="l">
-          <p>
-            <img class='cover-image' src="<%= project_cover_image(project) %>" alt="" />
+          <p class='cover-section'>
+            <img src="<%= project_cover_image(project) %>" alt="" />
+
+            <%= partial "github_buttons", :locals => {:project => project} %>
           </p>
 
           <p>Another pause, and he broke out again like one demented. Another pause, and he broke out again like one demented.</p>
           <p class="small">Another pause, and he broke out again like one demented. <a href="#">Another pause, and</a> he broke out again like one demented.</p>
+
 
           <a href="portfolio.html" class="extrudedbtn"><span>See Demo</span></a>
 
