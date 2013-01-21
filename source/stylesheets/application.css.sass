@@ -194,6 +194,7 @@ section.main.header
 // overrides
 footer.bottom
   margin-top: 70px
+  +clearfix
   .widget.newsletter
     margin-bottom: 30px
   .widget.credits
@@ -201,12 +202,13 @@ footer.bottom
     .author
       width: 300px
       float: left
-      margin-right: 20px
+      margin-right: 23px
       img
         width: 300px
         height: 190px
         // background: green
         margin-bottom: 10px
+        border: 1px solid rgba(#fff, 0.1)
       strong
         display: block
         text-align: center
@@ -217,6 +219,10 @@ footer.bottom
     strong
       float: left
       margin-right: 15px
+
+  .upper
+    padding-bottom: 20px
+    margin-bottom: 20px
 
 .hidden
   display: none
