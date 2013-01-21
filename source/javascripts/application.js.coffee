@@ -3,6 +3,7 @@
 
 #= require "./simplething/plugins/slides.jquery.js"
 #= require "./vendor/jquery.scrollTo"
+#= require "./vendor/jquery.fancybox"
 
 #= require_self
 
@@ -23,7 +24,7 @@ $ ->
       console.log("SWAPPED")
       $(".scroll-thumbs").scrollTo($(".scroll-thumbs .act"), offset: {left: -50})
 
-
+  $(".fancybox").fancybox()
   $(".close-announcement").click (e) ->
     e.preventDefault()
     $(this).hide()

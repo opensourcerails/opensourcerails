@@ -58,7 +58,7 @@
             <div class="gallerycont">
               <div class="slides_container">
                 <% screenshots.each do |img| %>
-                  <a href="#">
+                  <a class="fancybox" rel="group" href="<%= img[:src] %>" href="#">
                     <span class="screen-img" style="background-image: url('<%= img[:src] %>')"></span>
                     <!-- <img src="<%= img[:src] %>" alt="" width="<%= img[:width] %>" height="<%= img[:height] %>" /> -->
                   </a>

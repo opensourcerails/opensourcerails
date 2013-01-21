@@ -1,5 +1,6 @@
 //= require "./import_fonts"
 //= require "./simplething/index"
+//= require "./vendor/jquery.fancybox"
 //= require_self
 
 @import "mixins"
@@ -107,9 +108,11 @@ section.main
       .snext
         top: -120px
         right: -26px
+        z-index: 10
       .sprev
         top: -120px
         left: -23px
+        z-index: 10
 
       .scroll-thumbs
         overflow: hidden
