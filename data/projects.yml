@@ -15,10 +15,14 @@
     Spree is a comprehensive e-commerce application, actively maintained by Spree, the company.
     It's flexible, customizable, easy to administer, and easy to deploy.
 
-    * **Full Control:** customize the look and feel, or install an existing theme. You can also modify the checkout process to your exact business needs.
-    * **Administration:** product and order management, shipping and gateway configuration - all from an elegant admin interface.
-    * **Community:** actively maintained by a vibrant community, which has built hundreds of extensions.
-    * **Support:** Spree, the company, provides [professional services](http://spreecommerce.com/products/pro_services) if you get stuck or need help.
+    * **Full Control:** customize the look and feel, or install an existing theme.
+      You can also modify the checkout process to your exact business needs.
+    * **Administration:** product and order management, shipping and gateway
+      configuration - all from an elegant admin interface.
+    * **Community:** actively maintained by a vibrant community, which has built
+      hundreds of extensions.
+    * **Support:** Spree, the company, provides [professional services](http://spreecommerce.com/products/pro_services)
+      if you get stuck or need help.
 -
   id: "gitlab"
   title: "GitLab"
@@ -32,10 +36,13 @@
   description: |
     **Self hosted Git management software**
 
-    Fast and easy Git repositories, hosted either on your own or at Gitlab.com, based on [Gitolite](https://github.com/sitaramc/gitolite).
+    Fast and easy Git repositories, hosted either on your own or at Gitlab.com,
+    based on [Gitolite](https://github.com/sitaramc/gitolite).
 
-    * **Gitlab:** create projects and repositories, manage access and perform collaborative code reviews/merges.
-    * **Gitlab CI:** self hosted continuous integration server closely integrated with Gitlab.
+    * **Gitlab:** create projects and repositories, manage access and perform
+      collaborative code reviews/merges.
+    * **Gitlab CI:** self hosted continuous integration server closely integrated
+      with Gitlab.
 -
   id: "diaspora"
   title: "Diaspora"
@@ -48,10 +55,12 @@
   description: |
     **Distributed social network**
 
-    Unlike centralized social networks (eg, Facebook), Diaspora has no central system that owns all user data. Distributed *pods* act as web
+    Unlike centralized social networks (eg, Facebook), Diaspora has no central
+    system that owns all user data. Distributed *pods* act as web
     servers, and connect to other pods, forming a connected social network.
 
-    * **Self host:** host a pod yourself and connect to the Diaspora network without registering on anyone else's server.
+    * **Self host:** host a pod yourself and connect to the Diaspora network
+      without registering on anyone else's server.
     * **No lock-in:** migrate pods or export all of your user data.
 -
   id: "redmine"
@@ -66,8 +75,9 @@
   description: |
     **Flexible and full featured project management application**
 
-    One of the most popular Rails open source projects, Redmine is still a great ticketing and project management application. It's simple to use, administer, and deploy
-    and contains many powerful features:
+    One of the most popular Rails open source projects, Redmine is still a great
+    ticketing and project management application. It's simple to use, administer,
+    and deploy and contains many powerful features:
 
     * Multiple projects
     * Ticket tracking
@@ -88,7 +98,8 @@
   description: |
     **Simple and customizable CRM**
 
-    Manage leads, build campaigns, track accounts, close sales. It also has group collaboration, contact lists and opportunity tracking.
+    Manage leads, build campaigns, track accounts, close sales. It also has group
+    collaboration, contact lists and opportunity tracking.
 -
   id: "selfstarter"
   title: "Self Starter"
@@ -99,7 +110,8 @@
   categories:
     - "E-Commerce"
   description: |
-    Host your own crowdfunding site for your project. Integrates with Amazon Payments. Similar to Kickstarter, except for 1 project.
+    Host your own crowdfunding site for your project. Integrates with Amazon Payments.
+    Similar to Kickstarter, except for 1 project.
 -
   id: "locomotivecms"
   title: "Locomotive CMS"
@@ -111,7 +123,8 @@
     - "CMS/Blogging"
     - "Rails Engine"
   description: |
-    Powerful multi-site CMS with built in integration with Heroku and Amazon. Uses Mongodb and Liquid templates.
+    Powerful multi-site CMS with built in integration with Heroku and Amazon. Uses
+    Mongodb and Liquid templates.
 -
   id: "obtvse"
   title: "Obtvse"
@@ -148,20 +161,27 @@
 
   categories:
     - "Error Reporting"
-
 -
   id: "errbit"
   title: "Errbit"
   tagline: "open source, self-hosted error catcher"
   github_project: "errbit/errbit"
-  site_url: ""
+  site_url: "https://github.com/errbit/errbit"
   screencast_url: ""
   demo_url: "http://errbit-demo.herokuapp.com/"
   demo_notes: "Email: demo@errbit-demo.herokuapp.com / Password: password"
   categories:
     - "Error Reporting"
   description: |
+    **Exception notifier**
 
+    Self hosted Rails 3 compatible exception notifier similar to, and is API compliant
+    with, [Airbrake](http://airbrakeapp.com). Use cases include:
+
+    * **Security:** your exceptions may contain sensitive data that can't be on an
+      external server
+    * **Firewall:** it's an intranet application behind a Firewall
+    * **Customization:** if you want to modify or brand the exception notifier
 -
   id: "fulcrum"
   title: "Fulcrum"
@@ -173,7 +193,12 @@
     - "Collaboration"
     - "Project Management"
   description: |
+    **Agile Project Management App**
 
+    In the same spirit as [Pivotal Tracker](http://www.pivotaltracker.com), Fulcrum
+    is an agile project management tool. If your team uses stories, sprints and
+    the full agile methodology, but found Pivotal Tracker to be too much, then this
+    app might be a good fit for you.
 -
   id: "kandan"
   title: "Kandan"
@@ -186,8 +211,10 @@
   categories:
     - "Collaboration"
   description: |
+    **Real-time Chat**
 
-
+    A chat app with an elegant, clean design. Features include seachable message history, file
+    uploads, managing multiple chatrooms, and shared room audio.
 -
   id: "chiliproject"
   title: "ChiliProject"
@@ -199,7 +226,11 @@
     - "Collaboration"
     - "Project Management"
   description: |
+    **Easy to use project management and ticketing application**
 
+    ChiliProject is an actively maintained fork of [Redmine](/redmine). It promises to be more
+    open and transparent to its community of developers, and appears to have a more intuitive
+    user interface out of the box.
 -
   id: "copycopter"
   title: "Copycopter"
@@ -210,7 +241,12 @@
   categories:
     - "CMS/Blogging"
   description: |
+    **Self hosted copywriting service**
 
+    Originally created by [ThoughtBot](http://thoughtbot.com/), Copycopter is a service
+    for versioning blurbs of text. The original use case was to let consulting clients
+    write the copy for their application without access to the codebase. Supports
+    internationalization out of the box.
 -
   id: "lobsters"
   title: "Lobste.rs"
@@ -220,3 +256,7 @@
   categories:
     - "Collaboration"
   description: |
+    **Hacker News clone**
+
+    Run your own link link aggregation community with Lobste.rs. Comes with voting, tagging, commenting
+    and user management.
