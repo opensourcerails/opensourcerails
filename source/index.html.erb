@@ -1,4 +1,3 @@
-<% projects = data.projects %>
 <section class="main header announcement">
   <div class="inner">
     <p>
@@ -29,15 +28,7 @@
 
     <!-- START items -->
     <div class="portfolio items small clearfix">
-
-      <% projects.in_groups_of(3, false).each do |project_group| %>
-        <div class="row-fluid clearfix">
-          <% project_group.each do |project| %>
-            <%= partial "project_listing", :locals => {:project => project} %>
-          <% end %>
-        </div>
-      <% end %>
-
+      <%= partial "project_listings", :locals => {:projects => data.projects} %>
     </div>
     <!-- END items -->
 

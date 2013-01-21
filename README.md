@@ -44,6 +44,14 @@ To deploy to opensourcerails.com, just run:
 
 If you think you should have access to deploy but don't submit a new Github Issue with your SSH public key in it, and we'll add you to the `authorized_keys` on the server.
 
+If you get github exceptions about rate limitations (default is just 60/per hour per ip address), you'll need to authenticate your machine via `.netrc`
+
+    echo 'machine api.github.com login mygithubusername password MyPasswordHere111' >> ~/.netrc
+
+replace `mygithubusername` and `MyPasswordHere111` with your actual github username/password
+
+If this is there, then it shouldn't have a problem with the rate limit (its bumped to 5k/hr).
+
 
 ## Credits
 
