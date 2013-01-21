@@ -37,4 +37,8 @@ module ProjectHelpers
 
     imgs
   end
+
+  def project_description(project)
+    Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html
+  end
 end

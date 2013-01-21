@@ -9,7 +9,9 @@ gem "middleman-blog"
 
 gem 'handlebars_assets'
 gem 'octokit'
-gem "imagesize"
+# gem "imagesize"
+gem "redcarpet", "~> 1.17.2"
+
 
 group :development do
   gem "debugger"
