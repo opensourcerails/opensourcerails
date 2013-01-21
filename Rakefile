@@ -10,7 +10,10 @@ require 'active_support/all'
 desc "Generate data/github.yml by reading all the projects and querying github for them"
 task :github_data do
 
-  # TODO: read existing file and see if we need to refetch it
+  # read existing file and see if we need to refetch it
+  # TODO
+
+  Octokit.netrc = true
 
   require 'octokit'
   puts "Generating Github data..."
