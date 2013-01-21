@@ -9,7 +9,6 @@ require 'active_support/all'
 
 desc "Generate data/github.yml by reading all the projects and querying github for them"
 task :github_data do
-
   # read existing file and see if we need to refetch it
   # TODO
 

@@ -55,6 +55,16 @@ module ProjectHelpers
     end
 
     projects
+  end
 
+  def github_data_attributes(project)
+    github_data_attributes = ""
+    if data.respond_to?(:github) and github_data = data.try(:github).try("#{project.id}")
+      github_data_attributes << "data-watchers='#{github_data.watchers}' "
+      github_data_attributes << "data-created-at='#{github_data.created_at}' "
+      github_data_attributes << "data-pushed-at='#{github_data.pushed_at}' "
+    end
+
+    github_data_attributes
   end
 end
