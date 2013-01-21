@@ -2,6 +2,8 @@
 #= require "./simplething/libs/bootstrap.min"
 
 #= require "./simplething/plugins/slides.jquery.js"
+#= require "./vendor/jquery.scrollTo"
+
 #= require_self
 
 $ ->
@@ -16,6 +18,11 @@ $ ->
     next: 'snext'
     paginationClass: 'thumbs'
     generatePagination: false
+    animationComplete: (i) ->
+      # rescroll
+      console.log("SWAPPED")
+      $(".scroll-thumbs").scrollTo($(".scroll-thumbs .act"), offset: {left: -50})
+
 
   $(".close-announcement").click (e) ->
     e.preventDefault()
