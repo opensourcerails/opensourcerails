@@ -12,7 +12,7 @@
   description: |
     **Powerful and flexible e-commerce platform**
 
-    Spree is a comprehensive e-commerce application, actively maintained by Spree, the company. 
+    Spree is a comprehensive e-commerce application, actively maintained by Spree, the company.
     It's flexible, customizable, easy to administer, and easy to deploy.
 
     * **Full Control:** customize the look and feel, or install an existing theme. You can also modify the checkout process to your exact business needs.
@@ -86,7 +86,7 @@
   categories:
     - "Business"
   description: |
-    **Simple and customizable CRM** 
+    **Simple and customizable CRM**
 
     Manage leads, build campaigns, track accounts, close sales. It also has group collaboration, contact lists and opportunity tracking.
 -

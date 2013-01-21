@@ -1,7 +1,3 @@
-<% projects.in_groups_of(3, false).each do |project_group| %>
-  <div class="row-fluid clearfix">
-    <% project_group.each do |project| %>
-      <%= partial "project_listing", :locals => {:project => project} %>
-    <% end %>
-  </div>
+<% projects.each do |project| %>
+  <%= partial "project_listing", :locals => {:project => project} %>
 <% end %>
