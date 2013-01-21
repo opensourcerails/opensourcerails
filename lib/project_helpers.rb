@@ -67,4 +67,12 @@ module ProjectHelpers
 
     github_data_attributes
   end
+
+  def get_project(project_id)
+    data.projects.each do |project|
+      return project if project.id == project_id
+    end
+
+    nil
+  end
 end

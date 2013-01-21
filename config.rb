@@ -85,7 +85,7 @@ helpers ProjectHelpers
 ignore "/project.html"
 data.projects.each do |project|
   # puts "generating project: #{project.id}"
-  proxy "/#{project.id}/index.html", "/project.html", :locals => { :project => project }
+  proxy "/#{project.id}/index.html", "/project.html", :locals => { :project_id => project.id }
 end
 
 # Build-specific configuration
