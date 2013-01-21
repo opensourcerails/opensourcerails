@@ -13,13 +13,13 @@
 
     <% if github_data["pushed_at"] %>
       <div class="sort-field sort-pushed-at">
-        <span class="badge badge-info time-ago" title="<%= Time.parse(github_data["pushed_at"]).iso8601 %>"></span>
+        <span class="badge badge-info"><!-- active:  --><span class='time-ago' title="<%= Time.parse(github_data["pushed_at"]).iso8601 %>"></span></span>
       </div>
     <% end %>
 
     <% if github_data["created_at"] %>
       <div class="sort-field sort-created-at">
-        <span class="badge badge-info time-ago" title="<%= Time.parse(github_data["created_at"]).iso8601 %>"></span>
+        <span class="badge badge-info"><!-- started:  --><span class='time-ago' title="<%= Time.parse(github_data["created_at"]).iso8601 %>"></span></span>
       </div>
     <% end %>
   </a>

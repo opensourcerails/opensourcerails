@@ -243,7 +243,28 @@ section.main.header
   &.announcement
     min-height: 81px
     margin-bottom: 20px
-    .close-announcement
+    .announcement-actions
+      position: relative
+      margin-left: 5px
+
+    .close-announcement-text
+      font-size: 11px
+      font-family: helvetica
+      color: #fff
+      letter-spacing: 1px
+      display: inline-block
+      vertical-align: 5px
+      position: absolute
+      font-weight: 400
+      left: 0
+      right: 0
+      bottom: -18px
+      color: rgba(#fff, 0.5)
+      &:hover
+        color: rgba(#fff, 1.0)
+        text-decoration: underline
+
+    .close-announcement-btn
       position: absolute
       right: 20px
       top: 20px
