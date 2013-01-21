@@ -41,4 +41,20 @@ module ProjectHelpers
   def project_description(project)
     Redcarpet.new(project.description.to_s, :smart, :fenced_code).to_html
   end
+
+  def similar_projects(project)
+    projects = []
+
+    # find projects with matching categories
+    data.projects.each do |data_project|
+      next if data_project.id == project.id
+      data_project.categories.to_a.each do |category|
+        projects << data_project if project.categories.to_a.include?(category)
+        break
+      end
+    end
+
+    projects
+
+  end
 end

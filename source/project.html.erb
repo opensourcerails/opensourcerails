@@ -73,28 +73,21 @@
       </article>
       <!-- END entry -->
 
-      <!-- START similar -->
-      <aside class="portfolio similar">
-        <div class="scriptfont absleft"><img src="/images/text-similar-projects.png" alt="" /></div>
-        <nav class="cats tabs sep seplarge clearfix">
-          <ul class="similar-tabs clearfix">
-          </ul>
-        </nav>
-        <div class="slides_container">
-          <div class="row-fluid clearfix">
-            <%= partial "project_listing", :locals => {:project => project} %>
-            <%= partial "project_listing", :locals => {:project => project} %>
-            <%= partial "project_listing", :locals => {:project => project} %>
+      <% similar = similar_projects(project) %>
+      <% if similar.present? %>
+        <!-- START similar -->
+        <aside class="portfolio similar">
+          <div class="scriptfont absleft"><img src="/images/text-similar-projects.png" alt="" /></div>
+          <nav class="cats tabs sep seplarge clearfix">
+            <ul class="similar-tabs clearfix">
+            </ul>
+          </nav>
+          <div class="slides_container">
+            <%= partial "project_listings", :locals => {:projects => similar} %>
           </div>
-          <div class="row-fluid clearfix">
-            <%= partial "project_listing", :locals => {:project => project} %>
-            <%= partial "project_listing", :locals => {:project => project} %>
-            <%= partial "project_listing", :locals => {:project => project} %>
-          </div>
-
-        </div>
-      </aside>
-      <!-- END similar -->
+        </aside>
+        <!-- END similar -->
+      <% end %>
   </div>
 </section>
 <!-- END section.main -->
