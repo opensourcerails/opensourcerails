@@ -47,6 +47,7 @@ activate :directory_indexes
 activate :blog do |blog|
   blog.paginate = true
   blog.layout = "blog_layout"
+  blog.prefix = "blog"
 end
 
 # Automatic image dimensions on image_tag helper
@@ -90,6 +91,8 @@ data.projects.each do |project|
   # puts "generating project: #{project.id}"
   proxy "/#{project.id}/index.html", "/project.html", :locals => { :project_id => project.id }
 end
+
+proxy "/relaunch", "/relaunch.html", :layout => :blog_layout
 
 # Build-specific configuration
 configure :build do

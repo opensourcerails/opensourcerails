@@ -164,6 +164,28 @@ section.main
             width: 100%
             height: 100%
             display: block
+  &.blogpage
+    .inner .logo
+      left: -23px
+    .content
+      margin-bottom: 0
+    .post
+      .metaleft
+        margin-top: 89px
+      .entry
+        padding-bottom: 0
+        h2.title
+          background: none
+          margin-bottom: 0
+      +tablet-landscape-and-up
+        margin-right: -100px
+        margin-top: -18px
+        .entry
+          padding-right: 100px
+          +box-sizing(border-box)
+    .comments.with-disqus
+      padding: 0 10px
+
 
 section.main.header
   +linear-gradient(top, #325579, #325579, #173661)
@@ -238,6 +260,8 @@ section.main.header
       font-size: 24px
       &:hover
         opacity: 1.0
+
+
 
 // overrides
 footer.bottom

@@ -20,28 +20,26 @@ $ ->
   portfolioCats = $(".portfolio-cats")
   if portfolioItems.length > 0 and portfolioCats.length > 0
     defaultSort = Cookies.get("portfolio-sort") || "watchers"
-    sorter = portfolioItems.find(".sorter")
     portfolioItems
       .bind "sort", (e) ->
-        $(this).hide()
-        console.log("Sorting by: #{e.sort}")
+        # console.log("Sorting by: #{e.sort}")
+        sorter = portfolioItems.append("<div class='sorter' style='display:none'></div>")
 
         portfolioCats.find("li.act").removeClass("act")
         portfolioCats.find("li[data-sort='#{e.sort}']").addClass("act")
 
-        sorter.empty()
         $(this).find(".item").detach().appendTo(sorter)
 
         sorter.find(".item").tsort({data: e.sort, order: "desc"})
-        sorter.find(".item").each (i, el) ->
-          # console.log("i: #{i}")
-          # console.log(el)
 
+        # reattach items
+        sorter.find(".item").each (i, el) ->
           currentContainer = portfolioItems.find(".row-fluid").eq(i / 3)
           $(el).detach().appendTo(currentContainer)
 
         portfolioItems.attr("data-sort", e.sort)
         Cookies.set("portfolio-sort", e.sort)
+        portfolioItems.find(".sorter").remove()
 
         $(this).show()
 

@@ -1,0 +1,66 @@
+<% wrap_layout :layout do %>
+  <!-- START section.main -->
+  <section class="main innerpage blogpage" role="main">
+    <div class="inner clearfix">
+        <div class="content clearfix">
+          <a href="/" class="logo">Open Source Rails</a>
+          <%= yield %>
+        </div>
+        <aside class="sidebar right last">
+          <%#
+
+          <div class="widget boxed plain">
+            <div class="widgetinner clearfix">
+              <div class="mask l"><span></span><img src="/images/simplething/samples/sample.jpg" alt="" class="l" /></div>
+              <div class="r">
+                <h3>About Author</h3>
+                <p>Is a rails developer from Seattle.</p>
+                <a href="#">More about us »</a>
+              </div>
+            </div>
+          </div>
+          %>
+
+          <%#
+          <div class="widget boxed withheader">
+            <div class="header"><h3>Latest posts</h3></div>
+            <div class="widgetinner clearfix">
+              <div class="item">
+                <div class="date">24<small>sep</small></div>
+                <h4><a href="#">A little more over the top here.</a></h4>
+                <div class="meta"><a href="#">articles</a>,<a href="#">categories</a></div>
+              </div>
+              <div class="item">
+                <div class="date">24<small>sep</small></div>
+                <h4><a href="#">A little more over the top here.</a></h4>
+                <div class="meta"><a href="#">articles</a>,<a href="#">categories</a></div>
+              </div>
+              <div class="item last">
+                <div class="date">24<small>sep</small></div>
+                <h4><a href="#">A little more over the top here.</a></h4>
+                <div class="meta"><a href="#">articles</a>,<a href="#">categories</a></div>
+              </div>
+            </div>
+          </div>
+          %>
+
+        </aside>
+    </div>
+  </section>
+  <!-- END section.main -->
+
+<% end %>
+
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'opensourcerails'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
