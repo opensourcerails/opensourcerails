@@ -16,10 +16,10 @@
     <!-- START nav.cats -->
     <nav class="portfolio-cats cats mb30 clearfix">
       <ul class="clearfix">
-        <li class="label label-info">sort<!-- /filter -->:</li>
-        <li class="act" title='Sort by the # of Github stars.'><a href="#">Github Stars</a></li>
-        <li><a href="#" title='Sort by the most recently active (git push) projects.'>Last Active</a></li>
-        <li><a href="#" title='Sort by the most recently created projects.'>Recently Created</a></li>
+        <li class="label label-info">sort/filter:</li>
+        <li data-sort="watchers" title='Sort by the # of Github stars.'><a href="#">Github Stars</a></li>
+        <li data-sort="pushed-at"><a href="#" title='Sort by the most recently active (git push) projects.'>Last Active</a></li>
+        <li data-sort="created-at"><a href="#" title='Sort by the most recently created projects.'>Recently Created</a></li>
 
         <!-- <li><a href="#">Category ▼</a></li> -->
       </ul>
@@ -28,8 +28,10 @@
 
     <!-- START items -->
     <div class="portfolio items small clearfix">
-      <%= partial "project_listings", :locals => {:projects => data.projects} %>
+      <%= partial "project_listings_grouped", :locals => {:projects => data.projects} %>
+      <div class="sorter" style="display:none"></div>
     </div>
+
     <!-- END items -->
 
     <!-- START paging -->

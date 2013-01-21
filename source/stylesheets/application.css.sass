@@ -58,6 +58,27 @@ section.main
           left: 0
           right: 0
           margin: auto
+      .image
+        position: relative
+
+    .sort-field
+      display: none
+      position: absolute
+      bottom: 5px
+      right: 0
+      i
+        margin-left: -5px
+        margin-right: 3px
+
+    &[data-sort=watchers]
+      .sort-field.sort-watchers
+        display: block
+    &[data-sort=pushed-at]
+      .sort-field.sort-pushed-at
+        display: block
+    &[data-sort=created-at]
+      .sort-field.sort-created-at
+        display: block
 
   .submit-project
     margin-top: 50px

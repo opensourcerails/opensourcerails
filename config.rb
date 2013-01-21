@@ -78,6 +78,9 @@ activate :deploy do |deploy|
   deploy.path = "/home/opensourcerails4/new.opensourcerails.com"
 end
 
+require "lib/rails_helpers"
+helpers RailsHelpers
+
 require "lib/project_helpers"
 helpers ProjectHelpers
 
