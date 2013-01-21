@@ -569,7 +569,7 @@ footer ul li a {background: url(/images/simplething/footer_blt.png) no-repeat 0 
 footer ul li:last-child {background: none;}
 
 footer form {margin: 0;}
-footer input.text {background: #0a1a1f;border: 1px solid #07151a; border-bottom: 1px solid grey; width: 60%; height: 20px; line-height: 20px;padding: 8px 3%; float: left;font-family: "Droid Serif", Georgia, serif; color: #5b5b5b; font-size: 1.1em;float: left;}
+footer input.text {background: #0a1a1f;border: 4px solid #07151a; border-radius: 3px; width: 60%; height: 20px; line-height: 20px;padding: 8px 3%; float: left;font-family: "Helvetica", Arial, sans-serif; color: #5b5b5b; font-size: 1.1em;float: left;}
 footer .widget.newsletter input:focus {background-position: 0 -50px;}
 footer .btn {margin-left: 15px;border: 0; line-height: 21px; border-top: 1px solid rgba(255,255,255,0.7);box-shadow: 0 0 5px rgba(0,0,0,0.7);}
 
