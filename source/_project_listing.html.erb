@@ -1,9 +1,31 @@
+<% github_data = github_data(project) %>
 <div class="item span4" <%= github_data_attributes(project) %>>
   <a href="<%= project_url(project) %>" class="hover"><span class='magnify'></span></a>
   <a class="image" href="<%= project_url(project) %>">
     <img src="<%= project_cover_image(project) %>" alt="" />
+
+
+    <% if github_data["watchers"] %>
+      <div class="sort-field sort-watchers">
+        <span class="badge badge-info"><i class="icon-star"></i><%= number_with_delimiter(github_data["watchers"], :delimiter => ",") %></span>
+      </div>
+    <% end %>
+
+    <% if github_data["pushed_at"] %>
+      <div class="sort-field sort-pushed-at">
+        <span class="badge badge-info time-ago" title="<%= Time.parse(github_data["pushed_at"]).iso8601 %>"></span>
+      </div>
+    <% end %>
+
+    <% if github_data["created_at"] %>
+      <div class="sort-field sort-created-at">
+        <span class="badge badge-info time-ago" title="<%= Time.parse(github_data["created_at"]).iso8601 %>"></span>
+      </div>
+    <% end %>
   </a>
 
   <h4><a href="<%= project_url(project) %>"><%= project.title %></a></h4>
   <small><a href="<%= project_url(project) %>"><%= project.tagline %></a></small>
+
+
 </div>

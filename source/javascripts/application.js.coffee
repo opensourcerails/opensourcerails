@@ -6,12 +6,13 @@
 #= require "./vendor/jquery.scrollTo"
 #= require "./vendor/jquery.fancybox"
 #= require "./vendor/jquery.tinysort"
+#= require "./vendor/jquery.timeago"
 #= require "./vendor/cookies"
 
 #= require_self
 
 $ ->
-
+  $(".time-ago").timeago()
 
 
   # handle portfolio item sorting
@@ -39,6 +40,7 @@ $ ->
           currentContainer = portfolioItems.find(".row-fluid").eq(i / 3)
           $(el).detach().appendTo(currentContainer)
 
+        portfolioItems.attr("data-sort", e.sort)
         Cookies.set("portfolio-sort", e.sort)
 
         $(this).show()

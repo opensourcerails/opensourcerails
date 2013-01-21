@@ -57,15 +57,18 @@ module ProjectHelpers
     projects
   end
 
-  def github_data_attributes(project)
-    github_data_attributes = ""
-
+  def github_data(project)
     begin
       github_data = data.try(:github).try("#{project.id}")
     rescue Exception => e
       github_data = []
     end
+  end
 
+  def github_data_attributes(project)
+    github_data_attributes = ""
+
+    github_data = github_data(project)
     if github_data.present?
       github_data_attributes << "data-watchers='#{github_data.watchers}' "
       github_data_attributes << "data-created-at='#{github_data.created_at}' "
