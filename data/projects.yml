@@ -115,7 +115,7 @@
 -
   id: "locomotivecms"
   title: "Locomotive CMS"
-  tagline: "a powerful liquid powered CMS platform"
+  tagline: "a flexible liquid powered CMS platform"
   github_project: "locomotivecms/engine"
   site_url: "http://locomotivecms.com/"
   screencast_url: ""

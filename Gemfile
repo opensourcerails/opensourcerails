@@ -11,7 +11,7 @@ gem 'handlebars_assets'
 gem 'octokit'
 # gem "imagesize"
 gem "redcarpet", "~> 1.17.2"
-
+gem "builder"
 
 group :development do
   gem "debugger"
