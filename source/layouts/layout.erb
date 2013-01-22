@@ -6,9 +6,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Open Source Rails</title>
+  <title>
+    <% if content_for? :page_title %>
+      <%= yield_content :page_title %> on
+    <% end %>
+    Open Source Rails
+  </title>
 
-  <meta name="keywords" content="open source ruby on rails" />
+  <meta name="keywords" content="open source ruby on rails <%= yield_content :meta_keywords %>" />
+
   <meta name="description" content="Open Source Rails is a community site dedicated to tracking the best open source Ruby on Rails applications.">
 
   <meta name="viewport" content="width=device-width">
@@ -20,6 +26,7 @@
 </head>
 
 <body>
+
   <div class="topline"></div>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <div class="wrapper">

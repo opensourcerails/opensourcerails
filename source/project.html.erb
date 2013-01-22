@@ -1,6 +1,14 @@
 <% project = get_project(project_id) %>
 <% screenshots = project_screenshots(project) %>
 
+<% content_for :page_title do %>
+  <%= project.title %>
+<% end %>
+
+<% content_for :meta_keywords do %>
+  <%= project.tagline %>
+<% end %>
+
 <section class="main header">
   <div class="inner">
     <a href="/" class="logo">Open Source Rails</a>
