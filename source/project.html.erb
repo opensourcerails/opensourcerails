@@ -9,6 +9,14 @@
   <%= project.tagline %>
 <% end %>
 
+<% content_for :opengraph do %>
+  <meta property="og:site_name" content="Open Source Rails"/>
+  <meta property="og:title" content="<%= project.title %>, <%= project.tagline %>"/>
+  <meta property="og:image" content="<%= project_cover_image(project) %>"/>
+  <meta property="og:url" content="/<%= project.id %>/"/>
+  <meta property="og:type" content="opensource:project"/>
+<% end %>
+
 <section class="main header">
   <div class="inner">
     <a href="/" class="logo">Open Source Rails</a>
@@ -74,6 +82,13 @@
               </div>
               <a href="#" class="sprev"></a>
               <a href="#" class="snext"></a>
+
+              <br><br>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="opensourcerails">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+              <div class="fb-like" data-send="true"  data-width="450" data-show-faces="false"></div>
+
             </div>
 
           </div>
