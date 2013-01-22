@@ -1,4 +1,31 @@
 -
+  id: "refinerycms"
+  title: "Refinery CMS"
+  tagline: "a modular and extendable content management system"
+  github_project: "refinery/refinerycms"
+  site_url: "http://refinerycms.com"
+  demo_url: "http://demo.refinerycms.com"
+  screencast_url: ""
+  categories:
+    - "CMS/Blogging"
+    - "Rails Engine"
+  description: |
+    **Modular and extendable content management system**
+
+    Refinery CMS is perfect for creating custom content manageable websites.
+    We use "The Rails Way" where sensible so you have to learn as little as possible to get started!
+
+    * **100% free and open source** Refinery is available at no cost for anyone to use and modify.
+      There have been contributions from users around the world.
+    * **Super simple and easy to use**
+      If you can point and click, you can use Refinery and if you're building a
+      site for a client, 10 minutes on the phone will get them up and running.
+    * **Vibrant and Active Community**
+      There are Refinery contributors from every continent that are happy to help with your issues,
+      or even coach you through your first contribution
+    * **Modular and extendable**
+      If extra functionality is what you need, it's easy to create your own extension to get what you want.
+-
   id: "spree"
   title: "Spree"
   tagline: "a flexible e-commerce platform"
