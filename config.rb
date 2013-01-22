@@ -74,9 +74,9 @@ set :images_dir, 'images'
 
 activate :deploy do |deploy|
   deploy.method = :rsync
-  deploy.user = "opensourcerails4"
+  deploy.user = "railsjedi"
   deploy.host = "crate.dreamhost.com"
-  deploy.path = "/home/opensourcerails4/new.opensourcerails.com"
+  deploy.path = "/home/railsjedi/opensourcerails.com/public"
 end
 
 require "lib/rails_helpers"
