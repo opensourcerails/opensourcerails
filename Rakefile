@@ -12,10 +12,10 @@ task :github_data do
   # read existing file and see if we need to refetch it
   # TODO
 
-  Octokit.netrc = true
-
   require 'octokit'
   puts "Generating Github data..."
+
+  Octokit.netrc = true
 
   github_data = {}
 
