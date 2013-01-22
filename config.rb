@@ -33,7 +33,7 @@
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
-page "/relaunch.html", :layout => false
+page "/relaunch.html", :layout => :blog_layout
 
 
 ###
