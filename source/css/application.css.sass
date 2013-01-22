@@ -294,6 +294,19 @@ section.main.header
   z-index: 10
   box-shadow: 0 0 9px rgba(#000, 0.6)
 
+  .logo
+    float: left
+    position: absolute
+    top: 0
+
+    +phone-landscape-and-down
+      position: static
+      width: 75px
+      height: 75px
+      background-size: 100%
+      margin-top: 20px
+      margin-left: -10px
+
   h1, h2
     color: #fff
     font-family: $sourcesans
@@ -304,7 +317,8 @@ section.main.header
     max-width: 600px
     +phone-landscape-and-down
       text-align: left
-      // float: left
+      margin-left: 70px
+
   h1
     font-size: 44px
     font-weight: 900
@@ -314,6 +328,8 @@ section.main.header
   h2
     font-size: 26px
     font-weight: 200
+    +phone-landscape-and-down
+      padding-bottom: 20px
 
   strong
     font-weight: 400
@@ -325,12 +341,6 @@ section.main.header
       vertical-align: 6px
       margin-left: 5px
       letter-spacing: 0px
-  .logo
-    float: left
-
-    +tablet-portrait-and-up
-      position: absolute
-      top: 0
 
   .train-icon
     width: 76px
