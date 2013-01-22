@@ -32,7 +32,7 @@
   .portfolio.single .l a.extrudedbtn, .portfolio.single .l p.skill {float: none; margin: 0 auto;}
   .listitem, .listitem, li .comment .r, .main select, .error, .circlecont, .pricing, .pricing.triple {width: 100%!important;}
   .slides_container .row-fluid, ul.similar-tabs li {width: 100%;margin: 0 auto;}
-  .portfolio.single .l {text-align: center;} .portfolio.single .l h1 {background: url(/images/simplething/sep_large.png) no-repeat center bottom;}
+  .portfolio.single .l {text-align: center;} .portfolio.single .l h1 {background: url(/img/simplething/sep_large.png) no-repeat center bottom;}
   .sidebar, .sidebar.right, .sidebar.left {margin-left: 0; margin-right: 0;}
   .content {margin-bottom: 0;}
   .listitem .l {position: absolute;}
@@ -42,14 +42,14 @@
   .post .entry span.corner {width: 90%;}  .error input[type="text"] {width: 150px!important;}
   .main .widget.plain .r, li ul li .comment .r {width: 40%;}
   .phone .number {padding: 0; border: 0; margin: 0 0 10px 0;font-size: 2.4em;}
-  .cta {background: none; box-shadow: none;border: none;margin-bottom: 30px;background: url(/images/simplething/sep.png) no-repeat bottom center;}
-  .cta.white, .cta.pricing, .cta.pricing .price {border: 1px solid #cecece;background: #f9f9f9 /images/simplething/theme/middle_cta_white.jpg) repeat-x 0 0;}
+  .cta {background: none; box-shadow: none;border: none;margin-bottom: 30px;background: url(/img/simplething/sep.png) no-repeat bottom center;}
+  .cta.white, .cta.pricing, .cta.pricing .price {border: 1px solid #cecece;background: #f9f9f9 /img/simplething/theme/middle_cta_white.jpg) repeat-x 0 0;}
   .cta .part {border: 0!important;background: none;float: none;width: 100%!important;text-align: center!important;padding: 0!important;}
   .cta .middle a {margin: 0 auto;} .cta .middle {margin-top: 25px; margin-bottom: 30px;}
   .cta.pricing, .cta.pricing .price.featured {background: none;box-shadow: none!important; border: 0;}
   .cta.pricing .price, .cta.pricing.simple .price.featured {width: 100%; border: 0; float: none; display: block;border: 1px solid #cecece; box-shadow: 0 3px 0 #cecece, 0 3px 15px rgba(0,0,0,0.1)!important;border-radius: 5px;margin-bottom: 30px;}
   .cta.pricing .price.featured .extrudedprice {position: static;width: 100%;display: block;}
-  .circlecont h3 {background: url(/images/simplething/sep_left.png) no-repeat center bottom;font-size: 1.9em;}
+  .circlecont h3 {background: url(/img/simplething/sep_left.png) no-repeat center bottom;font-size: 1.9em;}
   .cta.plain {padding: 20px 10%; width: 80%;}
   .content, .sidebar, .sidebar.left, .sidebar.left, .post .entry, .content.wider {float: none; width: 100%;}
 

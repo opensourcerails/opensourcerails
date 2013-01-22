@@ -8,7 +8,7 @@ module ProjectHelpers
     if File.exists?("#{root}/source/screens/#{project.id}/cover.jpg")
       "/screens/#{project.id}/cover.jpg"
     else
-      "/images/simplething/samples/sample.jpg"
+      "/img/simplething/samples/sample.jpg"
     end
   end
 

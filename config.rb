@@ -60,17 +60,17 @@ end
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'css'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'js'
 
 # setup sprockets load paths
 handlebars_gem_dir = Gem::Specification.find_by_name("handlebars_assets").gem_dir
 set :js_assets_paths, [
-  "#{handlebars_gem_dir}/vendor/assets/javascripts/",
+  "#{handlebars_gem_dir}/vendor/assets/js/",
 ]
 
-set :images_dir, 'images'
+set :images_dir, 'img'
 
 activate :deploy do |deploy|
   deploy.method = :rsync
@@ -114,5 +114,5 @@ configure :build do
   # activate :smusher
 
   # Or use a different image path
-  # set :http_path, "/Content/images/"
+  # set :http_path, "/Content/img/"
 end

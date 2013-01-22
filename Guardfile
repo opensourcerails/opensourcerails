@@ -10,6 +10,6 @@ group 'assets' do
   end
 
   # prevalidate coffeescript syntax on save
-  guard 'coffeescript', :input => 'source/javascripts', :noop => true #, :hide_success => true
+  guard 'coffeescript', :input => 'source/js', :noop => true #, :hide_success => true
 end
 
