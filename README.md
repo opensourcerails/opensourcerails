@@ -1,6 +1,6 @@
 # OpenSourceRails
 
-Welcome to the new OpenSourceRails. We've revamped the site as a simple static site generator for more speed, easier updates, and maintenance by a larger open source community.
+Welcome to the new Open Source Rails. We've revamped the site as a simple static site generator for more speed, easier updates, and maintenance by a larger open source community.
 
 ## Contributing
 

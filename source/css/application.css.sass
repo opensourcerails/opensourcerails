@@ -172,23 +172,41 @@ section.main
             height: 100%
             display: block
   &.blogpage
+    margin-top: 30px
     .inner .logo
       left: -23px
     .content
       margin-bottom: 0
+    .postsocial
+      text-align: center
+      .fb-like
+        margin-left: -22px
+        margin-top: 10px
     .post
+
       .metaleft
         margin-top: 89px
       .entry
         padding-bottom: 0
+        font-family: $sourcesans
         h2.title
           background: none
           margin-bottom: 0
+
+        h3
+          font-size: 24px
+          margin-top: 25px
+
+        p
+          line-height: 1.5
+          font-size: 20px
+
+
       +tablet-landscape-and-up
         margin-right: -100px
         margin-top: -18px
         .entry
-          padding-right: 100px
+          // padding-right: 100px
           +box-sizing(border-box)
     .comments.with-disqus
       padding: 0 10px
