@@ -25,11 +25,9 @@ To help add features, write content, or tweak/fix the site, you can check out th
 
 ### Dev Instructions
 
-* `git clone git@github.com:railsjedi/opensourcerails.git`
-
-* `bundle`
-
-* `bundle exec middleman server -p 3000`
+    git clone git@github.com:railsjedi/opensourcerails.git
+    bundle
+    bundle exec middleman server -p 3000
 
 You should now be able to access the site locally at <http://localhost:3000>
 
