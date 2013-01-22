@@ -22,8 +22,13 @@ a.logo
 
 
 section.main
+
   .inner
     position: relative
+
+  +phone-landscape-and-down
+    padding: 0
+
 
   &.innerpage
     .inner
@@ -32,19 +37,32 @@ section.main
         position: absolute
         left: -30px
         top: -38px
-
+        +phone-landscape-and-down
+          float: left
+          position: static
+          margin-left: -30px
 
   .portfolio-cats
     background: none
     max-width: 600px
     +margin-horizontal(auto)
     margin-right: 0
+    +phone-landscape-and-down
+      padding-bottom: 0
     ul
       margin: 0
       text-align: right
       li.label
         vertical-align: 3px
         margin-right: 20px
+      li
+        white-space: nowrap
+
+        +phone-landscape-and-down
+          float: right
+          clear: right
+
+
 
   .portfolio
     .item
@@ -60,6 +78,11 @@ section.main
           margin: auto
       .image
         position: relative
+
+      +phone-landscape-and-down
+        border-bottom: 1px solid rgba(#000, 0.1)
+        padding-bottom: 10px
+        margin-bottom: 10px
 
     .sort-field
       display: none
@@ -82,9 +105,15 @@ section.main
 
   .portfolio-bottom
     +clearfix
+    +phone-landscape-and-down
+      width: 100%
+      overflow: hidden
     .social-embed
       float: left
       max-width: 400px
+      +phone-landscape-and-down
+        float: none
+        width: 100%
     .submit-project
       margin-top: 29px
       margin-left: auto
@@ -93,9 +122,16 @@ section.main
         margin-top: 52px
         margin-left: 15px
 
+      +phone-landscape-and-down
+        margin: auto
+        text-align: center
+
       .submit-project-btn
         margin-top: -27px
         margin-left: -65px
+        +phone-landscape-and-down
+          margin: auto
+          margin-top: 20px
         span
           text-transform: uppercase
           text-shadow: 0 0 5px #fff
@@ -109,6 +145,9 @@ section.main
       clear: both
     &.single
       padding-top: 15px
+      +phone-landscape-and-down
+        text-align: center
+
       .project-description
         padding-right: 5px
         clear: both
@@ -116,32 +155,41 @@ section.main
           font-size: 16px
         ul
           list-style: none
+          padding-left: 0
           li
             margin-bottom: 10px
       .project-links
         padding-right: 5px
         .extrudedbtn
           margin-right: -10px
-      .l
-        .cover-section
-          width: 290px
-          float: right
-          img
-            box-shadow: 0 0 11px #aaa
-          iframe
-            margin-top: 10px
+
+          +phone-landscape-and-down
+            margin: auto
+            float: none
+
+      .cover-section
+        width: 290px
+        float: right
+        +phone-landscape-and-down
+          float: none
+          margin: auto
+        img
+          box-shadow: 0 0 11px #aaa
+        iframe
+          margin-top: 10px
 
       .thumbs a img
         width: 100%
 
+      .snext, .sprev
+        top: -120px
+        z-index: 10
+        +phone-landscape-and-down
+          top: 50px
       .snext
-        top: -120px
         right: -26px
-        z-index: 10
       .sprev
-        top: -120px
         left: -23px
-        z-index: 10
 
       .scroll-thumbs
         overflow: hidden
@@ -175,6 +223,13 @@ section.main
     margin-top: 30px
     .inner .logo
       left: -23px
+      +phone-landscape-and-down
+        margin: auto
+        float: none
+        margin-top: -30px
+        width: 75px
+        height: 75px
+        background-size: 100%
     .content
       margin-bottom: 0
     .postsocial
@@ -182,25 +237,38 @@ section.main
       .fb-like
         margin-left: -22px
         margin-top: 10px
+
     .post
+      .boxed
+        +phone-landscape-and-down
+          padding: 0
+          border: 0
+          box-shadow: none !important
+          .entryinner
+            padding: 10px 10px
 
       .metaleft
         margin-top: 89px
       .entry
         padding-bottom: 0
         font-family: $sourcesans
+
         h2.title
           background: none
           margin-bottom: 0
+          +phone-landscape-and-down
+            font-size: 26px
 
         h3
           font-size: 24px
           margin-top: 25px
-
+          +phone-landscape-and-down
+            font-size: 18px
         p
           line-height: 1.5
           font-size: 20px
-
+          +phone-landscape-and-down
+            font-size: 14px
 
       +tablet-landscape-and-up
         margin-right: -100px
@@ -208,6 +276,7 @@ section.main
         .entry
           // padding-right: 100px
           +box-sizing(border-box)
+
     .comments.with-disqus
       padding: 0 10px
 
@@ -232,6 +301,9 @@ section.main.header
     text-align: center
     margin: auto
     max-width: 600px
+    +phone-landscape-and-down
+      text-align: left
+      // float: left
   h1
     font-size: 44px
     font-weight: 900
@@ -253,8 +325,11 @@ section.main.header
       margin-left: 5px
       letter-spacing: 0px
   .logo
-    position: absolute
-    top: 0
+    float: left
+
+    +tablet-portrait-and-up
+      position: absolute
+      top: 0
 
   .train-icon
     width: 76px
@@ -265,6 +340,8 @@ section.main.header
     bottom: -38px
     left: 0
     right: 0
+    +phone-landscape-and-down
+      display: none
 
   &.announcement
     min-height: 81px
@@ -316,10 +393,17 @@ section.main.header
 footer.bottom
   margin-top: 70px
   +clearfix
+
+  +phone-landscape-and-down
+    text-align: center
+
   .widget.newsletter
     margin-bottom: 30px
     input.text
       color: #fff
+      +phone-landscape-and-down
+        float: none
+
   .widget.credits
     +clearfix
     .author
@@ -335,6 +419,16 @@ footer.bottom
       strong
         display: block
         text-align: center
+
+      +phone-landscape-and-down
+        float: none
+        margin: auto
+        margin-top: 20px
+        width: 100%
+        img
+          width: 100%
+          height: auto
+
   .social-icons
     clear: both
     margin-top: 20px
@@ -344,6 +438,7 @@ footer.bottom
     strong
       float: left
       margin-right: 15px
+
 
   .contribute
     clear: both
