@@ -33,6 +33,9 @@
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+page "/relaunch.html", :layout => false
+
+
 ###
 # Helpers
 ###
@@ -92,7 +95,6 @@ data.projects.each do |project|
   proxy "/#{project.id}/index.html", "/project.html", :locals => { :project_id => project.id }
 end
 
-proxy "/relaunch", "/relaunch.html", :layout => :blog_layout
 
 # Build-specific configuration
 configure :build do
