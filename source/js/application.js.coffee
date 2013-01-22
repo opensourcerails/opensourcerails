@@ -22,6 +22,7 @@ $ ->
     defaultSort = Cookies.get("portfolio-sort") || "watchers"
     portfolioItems
       .bind "sort", (e) ->
+        return unless e.sort
         # console.log("Sorting by: #{e.sort}")
         sorter = portfolioItems.append("<div class='sorter' style='display:none'></div>")
 

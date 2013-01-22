@@ -256,7 +256,7 @@
   categories:
     - "Collaboration"
   description: |
-    **Hacker News clone**
+    **An awesome Hacker News alternative**
 
     Run your own link link aggregation community with Lobste.rs. Comes with voting, tagging, commenting
     and user management.
