@@ -5,8 +5,8 @@ module ProjectHelpers
   end
 
   def project_cover_image(project)
-    if File.exists?("#{root}/source/screenshots/#{project.id}/cover.jpg")
-      "/screenshots/#{project.id}/cover.jpg"
+    if File.exists?("#{root}/source/screens/#{project.id}/cover.jpg")
+      "/screens/#{project.id}/cover.jpg"
     else
       "/images/simplething/samples/sample.jpg"
     end
@@ -14,10 +14,10 @@ module ProjectHelpers
 
   # returns an array of Hashes, one for each associated project screenshot
   # include fields for :src, :index, :width, and :height
-  def project_screenshots(project)
+  def project_screens(project)
     imgs = []
 
-    files = Dir.glob("#{root}/source/screenshots/#{project.id}/**/screen*", File::FNM_CASEFOLD)
+    files = Dir.glob("#{root}/source/screens/#{project.id}/**/screen*", File::FNM_CASEFOLD)
     files.each_with_index do |file, index|
       next if File.directory?(file)
 

@@ -1,5 +1,5 @@
 <% project = get_project(project_id) %>
-<% screenshots = project_screenshots(project) %>
+<% screens = project_screens(project) %>
 
 <% content_for :page_title do %>
   <%= project.title %>
@@ -58,7 +58,7 @@
 
             <div class="scroll-thumbs">
               <ul class="thumbs clearfix">
-                <% screenshots.each do |img| %>
+                <% screens.each do |img| %>
                   <li><a href="#<%= img[:index] %>"><img src="<%= img[:src] %>" alt="" /></a></li>
                 <% end %>
               </ul>
@@ -66,7 +66,7 @@
 
             <div class="gallerycont">
               <div class="slides_container">
-                <% screenshots.each do |img| %>
+                <% screens.each do |img| %>
                   <a class="fancybox" rel="group" href="<%= img[:src] %>" href="#">
                     <span class="screen-img" style="background-image: url('<%= img[:src] %>')"></span>
                     <!-- <img src="<%= img[:src] %>" alt="" width="<%= img[:width] %>" height="<%= img[:height] %>" /> -->
