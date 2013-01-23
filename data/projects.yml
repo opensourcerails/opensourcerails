@@ -333,3 +333,42 @@
     * Manage shares
     * Manage network settings
     * Battle tested by thousands of users
+
+-
+  queued: true
+  id: "forem"
+  title: "Forem"
+  tagline: "The best Rails 3.1 and Rails 3.2 forum engine. Ever."
+  github_project: "radar/forem"
+  site_url: "https://github.com/radar/forem"
+  demo_url: "http://forem.herokuapp.com"
+  screencast_url: ""
+  categories:
+    - "Forums"
+    - "Rails Engine"
+  description: |
+    * Forums
+      * CRUD operations (provided by an admin backend)
+    * Topics
+      * Moderation tools
+      * Viewing all topics for a forum
+      * Creating of new topics
+      * Editing topics
+      * Deleting own topics
+      * Locking topics
+      * Hiding topics
+      * Pinning topics
+    * Posts
+      * Replying to topics
+      * Deleting own topics
+      * Blocking replies to locked topics
+      * Editing posts
+      * Text Formatting
+      * Posts are HTML escaped and pre tagged by default.
+      * Pluggable formatters for other behaviour (Markdown, Textile)
+      * :emoji:
+    * Theme support
+    * A flexible permissions system
+    * Translations
+    * Flexible configuration
+    * Integration with [Refinery CMS](https://github.com/resolve/refinerycms)
