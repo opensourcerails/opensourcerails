@@ -260,3 +260,27 @@
 
     Run your own link link aggregation community with Lobste.rs. Comes with voting, tagging, commenting
     and user management.
+-
+  id: "amahi"
+  title: "Amahi"
+  tagline: "Your personal cloud and media server"
+  github_project: "amahi/platform"
+  site_url: "http://www.amahi.org/"
+  screencast_url: ""
+  categories:
+    - "Media"
+    - "Developers"
+  description: |
+    **Your personal cloud and media server**
+
+    Amahi is a personal cloud and media server. It turns a PC into a small LAN server.
+    You can add apps from the Amahi app store, which has some of the top webapps in the world.
+    From turning your server into a Time Machine target for backups to serving videos via HTML5
+    the Videos5 app, to serving PS3 and XboX and many media player and other devices via DLNA.
+    You can also manage users, shares and networking for your network from one dashboard.
+
+    * Install top web apps
+    * Manage users
+    * Manage shares
+    * Manage network settings
+    * Battle tested by thousands of users
