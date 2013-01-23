@@ -15,8 +15,6 @@ task :github_data do
   require 'octokit'
   puts "Generating Github data..."
 
-  Octokit.netrc = true
-
   github_data = {}
 
   project_data = YAML.load_file("#{PROJECT_ROOT}/data/projects.yml")
@@ -34,6 +32,7 @@ task :github_data do
   # write to file
   yaml_data = "# GITHUB DATA GENERATED: #{Time.now.strftime('%B %d, %Y %I:%m%P')}\n\n"+github_data.to_yaml(:Indent => 2, :UseHeader => false)
   File.open("#{PROJECT_ROOT}/data/github.yml", 'w') {|f| f.write(yaml_data) }
+  puts "Generating Github data complete. Data written to #{PROJECT_ROOT}/data/github.yml"
 end
 
 desc "Deploy project"
