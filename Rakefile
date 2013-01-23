@@ -15,8 +15,6 @@ task :github_data do
   require 'octokit'
   puts "Generating Github data..."
 
-  Octokit.netrc = true
-
   github_data = {}
 
   project_data = YAML.load_file("#{PROJECT_ROOT}/data/projects.yml")
