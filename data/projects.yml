@@ -287,3 +287,22 @@
       or even coach you through your first contribution
     * **Modular and extendable**
       If extra functionality is what you need, it's easy to create your own extension to get what you want.
+
+-
+  id: "rstatus"
+  title: "rstat.us"
+  tagline: "An open source, open standards microblogging platform"
+  github_project: "hotsh/rstat.us"
+  site_url: "http://rstat.us"
+  queued: true
+  categories:
+    - "Microblogging"
+    - "Collaboration"
+  description: |
+    **A simple, open microblogging platform**
+
+    Microblogging has taken the world by storm. Millions of people around the world now share their thoughts with friends, family, and random strangers every day. Links are shared, stories are told, and events are discussed. rstatus is the newest place to participate in the collective conscious of the planet.
+
+    There are two things that make rstat.us special: simplicity and openness.
+
+    Simplicity is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots of features. Our interface is clean, and easy to understand. We give you just enough features to be interesting, but not enough to be complicated and confusing.
