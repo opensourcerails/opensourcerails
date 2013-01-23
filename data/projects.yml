@@ -288,13 +288,14 @@
     * **Modular and extendable**
       If extra functionality is what you need, it's easy to create your own extension to get what you want.
 
+# Queued up projects
 -
+  queued: true
   id: "rstatus"
   title: "rstat.us"
   tagline: "An open source, open standards microblogging platform"
   github_project: "hotsh/rstat.us"
   site_url: "http://rstat.us"
-  queued: true
   categories:
     - "Microblogging"
     - "Collaboration"
@@ -306,3 +307,29 @@
     There are two things that make rstat.us special: simplicity and openness.
 
     Simplicity is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots of features. Our interface is clean, and easy to understand. We give you just enough features to be interesting, but not enough to be complicated and confusing.
+
+-
+  queued: true
+  id: "amahi"
+  title: "Amahi"
+  tagline: "Your personal cloud and media server"
+  github_project: "amahi/platform"
+  site_url: "http://www.amahi.org/"
+  screencast_url: ""
+  categories:
+    - "Media"
+    - "Developers"
+  description: |
+    **Your personal cloud and media server**
+
+    Amahi is a personal cloud and media server. It turns a PC into a small LAN server.
+    You can add apps from the Amahi app store, which has some of the top webapps in the world.
+    From turning your server into a Time Machine target for backups to serving videos via HTML5
+    the Videos5 app, to serving PS3 and XboX and many media player and other devices via DLNA.
+    You can also manage users, shares and networking for your network from one dashboard.
+
+    * Install top web apps
+    * Manage users
+    * Manage shares
+    * Manage network settings
+    * Battle tested by thousands of users
