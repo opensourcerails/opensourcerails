@@ -27,6 +27,7 @@ To help add features, write content, or tweak/fix the site, you can check out th
 
     git clone git@github.com:railsjedi/opensourcerails.git
     bundle
+    rake github_data
     bundle exec middleman server -p 3000
 
 You should now be able to access the site locally at <http://localhost:3000>
@@ -38,7 +39,7 @@ You can also start [Guard](https://github.com/guard/guard) in a new Terminal tab
 
 To deploy to opensourcerails.com, just run:
 
-    bundle exec middleman build;bundle exec middleman deploy;
+    rake github_data && bundle exec middleman build && bundle exec middleman deploy
 
 If you think you should have access to deploy but don't submit a new Github Issue with your SSH public key in it, and we'll add you to the `authorized_keys` on the server.
 
