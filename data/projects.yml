@@ -128,7 +128,7 @@
 -
   id: "obtvse"
   title: "Obtvse"
-  tagline: "simple markdown-powered Ruby on Rails blog platform"
+  tagline: "simple markdown-powered blog platform"
   github_project: "natew/obtvse"
   site_url: "http://obtvse.herokuapp.com/"
   screencast_url: ""
