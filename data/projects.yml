@@ -159,6 +159,7 @@
   github_project: "natew/obtvse"
   site_url: "http://obtvse.herokuapp.com/"
   screencast_url: ""
+  queued: true
   categories:
     - "CMS/Blogging"
   description: |

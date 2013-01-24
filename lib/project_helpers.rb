@@ -1,5 +1,19 @@
 # require 'image_size'
 module ProjectHelpers
+
+  def gallery_projects
+    begin
+      projects = data.projects
+    rescue Exception => e
+      projects = []
+    end
+
+    # filter out queued projects
+    projects.select do |project|
+      !project.queued
+    end
+  end
+
   def project_url(project)
     "/#{project.id}/"
   end
