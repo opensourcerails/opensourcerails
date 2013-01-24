@@ -128,15 +128,14 @@
 -
   id: "obtvse"
   title: "Obtvse"
-  tagline: "clean and simple markdown blog, inspired by Svbtle"
+  tagline: "simple markdown-powered Ruby on Rails blog platform"
   github_project: "natew/obtvse"
   site_url: "http://obtvse.herokuapp.com/"
   screencast_url: ""
-  queued: true
   categories:
     - "CMS/Blogging"
   description: |
-    Simple markdown blog application, based on Svbtle.
+    A clean and simple markdown blog application, inspired by Svbtle.
 -
   id: "squash"
   title: "Squash"
