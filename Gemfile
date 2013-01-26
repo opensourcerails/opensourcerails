@@ -12,6 +12,7 @@ gem 'octokit'
 # gem "imagesize"
 gem "redcarpet", "~> 1.17.2"
 gem "builder"
+gem "json"
 
 group :development do
   gem "debugger"
