@@ -125,7 +125,7 @@
 -
   id: "locomotivecms"
   title: "Locomotive CMS"
-  tagline: "a flexible liquid powered CMS platform"
+  tagline: "a multisite CMS with liquid templating"
   github_project: "locomotivecms/engine"
   site_url: "http://locomotivecms.com/"
   twitter: "locomotivecms"
@@ -286,7 +286,7 @@
 -
   id: "refinerycms"
   title: "Refinery CMS"
-  tagline: "a modular and extendable content management system"
+  tagline: "a modular and extendable CMS"
   github_project: "refinery/refinerycms"
   site_url: "http://refinerycms.com"
   demo_url: "http://demo.refinerycms.com/refinery"
