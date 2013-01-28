@@ -60,10 +60,19 @@ module ProjectHelpers
     # find projects with matching categories
     data.projects.each do |data_project|
       next if data_project.id == project.id
-      data_project.categories.to_a.each do |category|
-        projects << data_project if project.categories.to_a.include?(category)
+
+      matched = false
+      project.categories.to_a.each do |category|
+        matched = true if data_project.categories.to_a.include?(category)
         break
       end
+
+      data_project.categories.to_a.each do |category|
+        matched = true if project.categories.to_a.include?(category)
+        break
+      end
+
+      projects << data_project if matched
     end
 
     projects

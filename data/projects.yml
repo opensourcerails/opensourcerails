@@ -10,6 +10,7 @@
   categories:
     - "E-Commerce"
     - "Rails Engine"
+    - "Business"
   description: |
     **Powerful and flexible e-commerce platform**
 
@@ -55,7 +56,8 @@
   twitter: "joindiaspora"
   screencast_url: ""
   categories:
-    - "Collaboration"
+    - "Social"
+    - "Microblogging"
   description: |
     **Distributed social network**
 
@@ -75,8 +77,8 @@
   twitter: "redmineapp"
   screencast_url: ""
   categories:
-    - "Collaboration"
     - "Project Management"
+    - "Developers"
   description: |
     **Flexible and full featured project management application**
 
@@ -101,6 +103,7 @@
   screencast_url: ""
   categories:
     - "Business"
+    - "CRM"
   description: |
     **Simple and customizable CRM**
 
@@ -143,6 +146,7 @@
   screencast_url: ""
   categories:
     - "CMS/Blogging"
+    - "Social"
   description: |
     A clean and simple markdown blog application, inspired by Svbtle.
 -
@@ -171,6 +175,7 @@
 
   categories:
     - "Error Reporting"
+    - "Developers"
 -
   id: "errbit"
   title: "Errbit"
@@ -202,8 +207,8 @@
   twitter: "malclocke"
   screencast_url: ""
   categories:
-    - "Collaboration"
     - "Project Management"
+    - "Developers"
   description: |
     **Agile Project Management App**
 
@@ -223,6 +228,7 @@
   screencast_url: "http://embed.vidyard.com/share/bcoiYmbh6rAKsDgZt5qr3Q"
   categories:
     - "Collaboration"
+    - "Developers"
   description: |
     **Real-time Chat**
 
@@ -237,8 +243,8 @@
   twitter: "chiliproject"
   screencast_url: ""
   categories:
-    - "Collaboration"
     - "Project Management"
+    - "Developers"
   description: |
     **Easy to use project management and ticketing application**
 
@@ -271,7 +277,7 @@
   twitter: "jcs"
   screencast_url: ""
   categories:
-    - "Collaboration"
+    - "Social"
   description: |
     **An awesome Hacker News alternative**
 
@@ -314,7 +320,7 @@
   site_url: "http://rstat.us"
   categories:
     - "Microblogging"
-    - "Collaboration"
+    - "Social"
   description: |
     **A simple, open microblogging platform**
 
@@ -334,7 +340,8 @@
   screencast_url: ""
   categories:
     - "Media"
-    - "Developers"
+    - "Movies"
+
   description: |
     **Your personal cloud and media server**
 
@@ -399,8 +406,8 @@
   twitter: "sprint_app"
   screencast_url: ""
   categories:
-    - "Collaboration"
     - "Project Management"
+    - "Developers"
   description: |
     **Powerful and full featured project and time tracking**
 
@@ -423,8 +430,9 @@
   twitter: "mixturefm"
   screencast_url: ""
   categories:
-  - "Media"
-  - "Music"
+    - "Media"
+    - "Music"
+    - "Social"
   description: |
     **The best and organized DJ mixes from around the world**
 
@@ -440,6 +448,8 @@
   screencast_url: ""
   categories:
     - "Learning Management System"
+    - "Social"
+
   description: |
     **Learning management system that powers Hackety.com**
 
