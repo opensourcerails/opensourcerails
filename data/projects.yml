@@ -306,12 +306,10 @@
     * **Modular and extendable**
       If extra functionality is what you need, it's easy to create your own extension to get what you want.
 
-# Queued up projects
 -
-  queued: true
   id: "rstatus"
   title: "rstat.us"
-  tagline: "An open source, open standards microblogging platform"
+  tagline: "open standards microblogging platform"
   github_project: "hotsh/rstat.us"
   site_url: "http://rstat.us"
   categories:
@@ -327,10 +325,9 @@
     Simplicity is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots of features. Our interface is clean, and easy to understand. We give you just enough features to be interesting, but not enough to be complicated and confusing.
 
 -
-  queued: true
   id: "amahi"
   title: "Amahi"
-  tagline: "Your personal cloud and media server"
+  tagline: "your personal cloud and media server"
   github_project: "amahi/platform"
   site_url: "http://www.amahi.org/"
   twitter: "amahi"
@@ -357,7 +354,7 @@
   queued: true
   id: "forem"
   title: "Forem"
-  tagline: "The best Rails 3.1 and Rails 3.2 forum engine. Ever."
+  tagline: "a pluggable forum"
   github_project: "radar/forem"
   site_url: "https://github.com/radar/forem"
   demo_url: "http://forem.herokuapp.com"
@@ -393,10 +390,9 @@
     * Flexible configuration
     * Integration with [Refinery CMS](https://github.com/resolve/refinerycms)
 -
-  queued: true
   id: "sprintapp"
   title: "SprintApp"
-  tagline: "SprintApp makes time tracking and project management easy"
+  tagline: "makes time tracking and project management easy"
   github_project: "macfanatic/SprintApp"
   site_url: "http://sprintapp.com/"
   demo_url: "http://mysprintapp.herokuapp.com/login"
@@ -418,10 +414,9 @@
     * Employee timesheet
     * Sprint planning
 -
-  queued: true
   id: "mixturefm"
   title: "Mixture.fm"
-  tagline: "Mixes for the masses"
+  tagline: "mixes for the masses"
   github_project: "erickreutz/mixturefm"
   site_url: "http://mixture.fm"
   demo_url: "http://mixture.fm"
@@ -436,10 +431,9 @@
     Built with Rails and Backbone.js, Mixture.fm is the complete, concise, organized,
     and handpicked stockpile of the best DJ mixes from around the world.
 -
-  queued: true
   id: "hackety"
   title: "Hackety Hack"
-  tagline: "Learn the basics of programming with Ruby"
+  tagline: "learn the basics of programming with Ruby"
   github_project: "hacketyhack/hackety-hack.com"
   site_url: "http://hackety.com"
   twitter: "hacketyhack"
