@@ -5,6 +5,7 @@
   github_project: "spree/spree"
   site_url: "http://spreecommerce.com/"
   demo_url: "http://spreecommerce.com/demo"
+  twitter: "spreecommerce"
   screencast_url: ""
   categories:
     - "E-Commerce"
@@ -23,12 +24,14 @@
       hundreds of extensions.
     * **Support:** Spree, the company, provides [professional services](http://spreecommerce.com/products/pro_services)
       if you get stuck or need help.
+
 -
   id: "gitlab"
   title: "GitLab"
   tagline: "self hosted Git management"
   github_project: "gitlabhq/gitlabhq"
   site_url: "http://gitlabhq.com/"
+  twitter: "gitlabhq"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -49,6 +52,7 @@
   tagline: "community-run, distributed social-network"
   github_project: "diaspora/diaspora"
   site_url: "https://joindiaspora.com/"
+  twitter: "joindiaspora"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -68,6 +72,7 @@
   tagline: "web based project management"
   github_project: "edavis10/redmine"
   site_url: "http://www.redmine.org/"
+  twitter: "redmineapp"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -92,6 +97,7 @@
   tagline: "a clean, customizable CRM"
   github_project: "fatfreecrm/fat_free_crm"
   site_url: "http://www.fatfreecrm.com/"
+  twitter: "fatfreecrm"
   screencast_url: ""
   categories:
     - "Business"
@@ -106,6 +112,7 @@
   tagline: "roll your own crowdfunding"
   github_project: "lockitron/selfstarter"
   site_url: "http://selfstarter.us/"
+  twitter: "lockitron"
   screencast_url: "lockitron/selfstarter"
   categories:
     - "E-Commerce"
@@ -118,6 +125,7 @@
   tagline: "a flexible liquid powered CMS platform"
   github_project: "locomotivecms/engine"
   site_url: "http://locomotivecms.com/"
+  twitter: "locomotivecms"
   screencast_url: ""
   categories:
     - "CMS/Blogging"
@@ -131,6 +139,7 @@
   tagline: "simple markdown-powered blog platform"
   github_project: "natew/obtvse"
   site_url: "http://obtvse.herokuapp.com/"
+  twitter: "natebirdman"
   screencast_url: ""
   categories:
     - "CMS/Blogging"
@@ -142,6 +151,7 @@
   tagline: "exception reporting and bug analysis by Square"
   github_project: "SquareSquash/web"
   site_url: "http://squash.io/"
+  twitter: "square"
   screencast_url: "http://www.youtube.com/watch?feature=player_embedded&v=160_JLZvn-4"
   description: |
     **An open-source project from Square**
@@ -167,6 +177,7 @@
   tagline: "open source, self-hosted error catcher"
   github_project: "errbit/errbit"
   site_url: "https://github.com/errbit/errbit"
+  twitter: ""
   screencast_url: ""
   demo_url: "http://errbit-demo.herokuapp.com/"
   demo_notes: "Email: demo@errbit-demo.herokuapp.com / Password: password"
@@ -188,6 +199,7 @@
   tagline: "agile project planning, clone of Pivotal Tracker"
   github_project: "malclocke/fulcrum"
   site_url: "http://wholemeal.co.nz/projects/fulcrum.html"
+  twitter: "malclocke"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -207,6 +219,7 @@
   site_url: "http://kandan.me/"
   # embed: |
   #   <script type="text/javascript" id="vidyard_embed_code_bcoiYmbh6rAKsDgZt5qr3Q" src="//embed.vidyard.com/embed/bcoiYmbh6rAKsDgZt5qr3Q/inline?width=1000&height=563&v=2.2"></script>
+  twitter: "cloudfuji"
   screencast_url: "http://embed.vidyard.com/share/bcoiYmbh6rAKsDgZt5qr3Q"
   categories:
     - "Collaboration"
@@ -221,6 +234,7 @@
   tagline: "web based project management (forked from redmine)"
   github_project: "chiliproject/chiliproject"
   site_url: "https://www.chiliproject.org/"
+  twitter: "chiliproject"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -237,6 +251,7 @@
   tagline: "let your clients do the copy writing"
   github_project: "copycopter/copycopter-server"
   site_url: "http://copycopter.com/"
+  twitter: "copycopter"
   screencast_url: "http://media.railscasts.com/assets/episodes/videos/336-copycopter.mp4"
   categories:
     - "CMS/Blogging"
@@ -253,6 +268,8 @@
   tagline: "link-aggregation site, inspired by Hacker News"
   github_project: "jcs/lobsters"
   site_url: "http://lobste.rs"
+  twitter: "jcs"
+  screencast_url: ""
   categories:
     - "Collaboration"
   description: |
@@ -267,6 +284,7 @@
   github_project: "refinery/refinerycms"
   site_url: "http://refinerycms.com"
   demo_url: "http://demo.refinerycms.com"
+  twitter: "@refinerycms"
   screencast_url: ""
   categories:
     - "CMS/Blogging"
@@ -315,6 +333,7 @@
   tagline: "Your personal cloud and media server"
   github_project: "amahi/platform"
   site_url: "http://www.amahi.org/"
+  twitter: "amahi"
   screencast_url: ""
   categories:
     - "Media"
@@ -342,6 +361,7 @@
   github_project: "radar/forem"
   site_url: "https://github.com/radar/forem"
   demo_url: "http://forem.herokuapp.com"
+  twitter: "ryanbigg"
   screencast_url: ""
   categories:
     - "Forums"
@@ -380,6 +400,7 @@
   github_project: "macfanatic/SprintApp"
   site_url: "http://sprintapp.com/"
   demo_url: "http://mysprintapp.herokuapp.com/login"
+  twitter: "sprint_app"
   screencast_url: ""
   categories:
     - "Collaboration"
@@ -404,6 +425,7 @@
   github_project: "erickreutz/mixturefm"
   site_url: "http://mixture.fm"
   demo_url: "http://mixture.fm"
+  twitter: "mixturefm"
   screencast_url: ""
   categories:
   - "Media"
@@ -420,6 +442,7 @@
   tagline: "Learn the basics of programming with Ruby"
   github_project: "hacketyhack/hackety-hack.com"
   site_url: "http://hackety.com"
+  twitter: "hacketyhack"
   screencast_url: ""
   categories:
     - "Learning Management System"
