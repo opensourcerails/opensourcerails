@@ -372,3 +372,71 @@
     * Translations
     * Flexible configuration
     * Integration with [Refinery CMS](https://github.com/resolve/refinerycms)
+-
+  queued: true
+  id: "sprintapp"
+  title: "SprintApp"
+  tagline: "SprintApp makes time tracking and project management easy"
+  github_project: "macfanatic/SprintApp"
+  site_url: "http://sprintapp.com/"
+  demo_url: "http://mysprintapp.herokuapp.com/login"
+  screencast_url: ""
+  categories:
+    - "Collaboration"
+    - "Project Management"
+  description: |
+    **Powerful and full featured project and time tracking**
+
+    Everything you need to track projects.
+
+    * Multiple teams
+    * Ticket tracking
+    * Client management
+    * Time tracking, with billable hours
+    * Project calendar
+    * Employee timesheet
+    * Sprint planning
+-
+  queued: true
+  id: "mixturefm"
+  title: "Mixture.fm"
+  tagline: "Mixes for the masses"
+  github_project: "erickreutz/mixturefm"
+  site_url: "http://mixture.fm"
+  demo_url: "http://mixture.fm"
+  screencast_url: ""
+  categories:
+  - "Media"
+  - "Music"
+  description: |
+    **The best and organized DJ mixes from around the world**
+
+    Built with Rails and Backbone.js, Mixture.fm is the complete, concise, organized,
+    and handpicked stockpile of the best DJ mixes from around the world.
+-
+  queued: true
+  id: "hackety"
+  title: "Hackety Hack"
+  tagline: "Learn the basics of programming with Ruby"
+  github_project: "hacketyhack/hackety-hack.com"
+  site_url: "http://hackety.com"
+  screencast_url: ""
+  categories:
+    - "Learning Management System"
+  description: |
+    **Learning management system that powers Hackety.com**
+
+    The Hackety-hack.com project is a learning management system with the ability to
+    work through lessons, ask questions, upload programs, and everything else you see
+    on Hackety.com
+
+
+
+
+
+
+
+
+
+
+
