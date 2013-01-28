@@ -398,6 +398,7 @@
   github_project: "macfanatic/SprintApp"
   site_url: "http://sprintapp.com/"
   demo_url: "http://mysprintapp.herokuapp.com/login"
+  demo_notes: "Email: admin@example.com / Password: password"
   twitter: "sprint_app"
   screencast_url: ""
   categories:
