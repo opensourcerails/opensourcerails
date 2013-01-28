@@ -14,6 +14,18 @@
 $ ->
   $(".time-ago").timeago()
 
+  $(".demo-popover").each ->
+    demoPopover = $(this)
+    demoPopover
+      .popover(html: true)
+      .click (e) ->
+        e.preventDefault()
+
+  $(document).on "click", ".close-demo-popover", (e) ->
+    e.preventDefault()
+    $(".demo-popover").popover("hide")
+
+
 
   # handle portfolio item sorting
   portfolioItems = $(".portfolio.items")

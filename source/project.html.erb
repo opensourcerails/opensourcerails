@@ -53,8 +53,13 @@
             <% end %>
 
             <% if project.demo_url %>
-              <!-- TODO: make this a bootstrap popover with instructions -->
-              <a href="<%= project.demo_url %>" class="extrudedbtn"><span>See Demo</span></a>
+              <% if project.demo_notes.present? %>
+                <a href="<%= project.demo_url %>" class="demo-popover extrudedbtn"
+                  data-title="For the Demo:"
+                  data-content="<p><%= project.demo_notes.gsub('\"', '&quot;') %></p><p><a href='<%= project.demo_url %>' target='_blank' class='btn btn-small btn-primary'>View Demo Now</a> or <a href='#' data-dismiss='popover' class='close-demo-popover'>close</a></p>"><span>See Demo</span></a>
+              <% else %>
+                <a href="<%= project.demo_url %>"class="extrudedbtn"><span>See Demo</span></a>
+              <% end %>
             <% end %>
 
             <!-- <a href="#" class="extrudedbtn"><span>Launch</span></a> -->
