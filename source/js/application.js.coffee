@@ -19,7 +19,7 @@ $ ->
   portfolioItems = $(".portfolio.items")
   portfolioCats = $(".portfolio-cats")
   if portfolioItems.length > 0 and portfolioCats.length > 0
-    defaultSort = Cookies.get("portfolio-sort") || "watchers"
+    defaultSort = Cookies.get("portfolio-sort") || "index"
     portfolioItems
       .bind "sort", (e) ->
         return unless e.sort
