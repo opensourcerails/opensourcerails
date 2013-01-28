@@ -57,12 +57,21 @@ section.main
         margin-right: 20px
       li
         white-space: nowrap
+        a
+          padding: 1px 14px
 
-        +phone-landscape-and-down
+      +phone-landscape-and-down
+        li.label
+          margin-bottom: 5px
+        li
           float: right
           clear: right
-
-
+          margin: 0
+          &.act
+            a
+              padding: 1px 14px
+              background: none
+              margin: 0
 
   .portfolio
     .item
@@ -101,6 +110,9 @@ section.main
         display: block
     &[data-sort=created-at]
       .sort-field.sort-created-at
+        display: block
+    &[data-sort=index]
+      .sort-field.sort-index
         display: block
 
   .portfolio-bottom
@@ -293,6 +305,8 @@ section.main.header
   min-height: 143px
   z-index: 10
   box-shadow: 0 0 9px rgba(#000, 0.6)
+  +phone-landscape-and-down
+    min-height: 70px
 
   .logo
     float: left
@@ -304,7 +318,7 @@ section.main.header
       width: 75px
       height: 75px
       background-size: 100%
-      margin-top: 20px
+      margin-top: 0px
       margin-left: -10px
 
   h1, h2
@@ -324,13 +338,16 @@ section.main.header
     font-weight: 900
     letter-spacing: -1px
     padding-top: 30px
+    +phone-landscape-and-down
+      font-size: 22px
+      padding-top: 10px
 
   h2
     font-size: 26px
     font-weight: 200
     +phone-landscape-and-down
       padding-bottom: 20px
-
+      font-size: 18px
   strong
     font-weight: 400
   p

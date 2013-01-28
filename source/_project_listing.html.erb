@@ -1,5 +1,5 @@
 <% github_data = github_data(project) %>
-<div class="item span4" <%= github_data_attributes(project) %>>
+<div class="item span4" <%= github_data_attributes(project) %> data-index="<%= project_index %>">
   <a href="<%= project_url(project) %>" class="hover"><span class='magnify'></span></a>
   <a class="image" href="<%= project_url(project) %>">
     <img src="<%= project_cover_image(project) %>" alt="" />
@@ -22,6 +22,11 @@
         <span class="badge badge-info" title="When this project was created on GitHub."><!-- started:  --><span class='time-ago' title="<%= Time.parse(github_data["created_at"]).iso8601 %>"></span></span>
       </div>
     <% end %>
+
+    <div class="sort-field sort-index">
+      <span class="badge badge-info" title="OpenSourceRails Project #<%= project_index %>">#<%= project_index %></span>
+
+    </div>
   </a>
 
   <h4><a href="<%= project_url(project) %>"><%= project.title %></a></h4>

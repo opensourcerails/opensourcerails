@@ -1,7 +1,11 @@
+<% projects_total = projects.count %>
+<% project_index = 0 %>
+
 <% projects.in_groups_of(3, false).each do |project_group| %>
   <div class="row-fluid clearfix">
     <% project_group.each do |project| %>
-      <%= partial "project_listing", :locals => {:project => project} %>
+      <%= partial "project_listing", :locals => {:project => project, :project_index => (projects_total - project_index)} %>
+      <% project_index += 1 %>
     <% end %>
   </div>
 <% end %>

@@ -9,9 +9,7 @@ module ProjectHelpers
     end
 
     # filter out queued projects
-    projects.select do |project|
-      !project.queued
-    end
+    projects.select{ |project| !project.queued }.reverse
   end
 
   def project_url(project)
