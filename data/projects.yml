@@ -220,8 +220,8 @@
   id: "kandan"
   title: "Kandan"
   tagline: "web based team chat"
-  github_project: "cloudfuji/kandan"
-  site_url: "http://kandan.me/"
+  github_project: "kandanapp/kandan"
+  site_url: "http://kandanapp.com/"
   # embed: |
   #   <script type="text/javascript" id="vidyard_embed_code_bcoiYmbh6rAKsDgZt5qr3Q" src="//embed.vidyard.com/embed/bcoiYmbh6rAKsDgZt5qr3Q/inline?width=1000&height=563&v=2.2"></script>
   twitter: "cloudfuji"
@@ -233,7 +233,7 @@
     **Real-time Chat**
 
     A chat app with an elegant, clean design. Features include seachable message history, file
-    uploads, managing multiple chatrooms, and shared room audio.
+    uploads, managing multiple chatrooms, shared room audio and hubot integration.
 -
   id: "chiliproject"
   title: "ChiliProject"
