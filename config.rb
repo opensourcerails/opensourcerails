@@ -69,9 +69,13 @@ set :js_dir, 'js'
 
 # setup sprockets load paths
 handlebars_gem_dir = Gem::Specification.find_by_name("handlebars_assets").gem_dir
-set :js_assets_paths, [
-  "#{handlebars_gem_dir}/vendor/assets/js/",
-]
+#set :js_assets_paths, [
+#  "#{handlebars_gem_dir}/vendor/assets/js/",
+#]
+
+after_configuration do  
+  sprockets.append_path "#{handlebars_gem_dir}/vendor/assets/js/"
+end
 
 set :images_dir, 'img'
 
