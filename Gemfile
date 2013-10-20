@@ -5,7 +5,7 @@ gem "activesupport"
 gem "middleman", ">= 3.0.6"
 gem "middleman-bourbon"
 gem "middleman-deploy"
-gem "middleman-blog"
+gem "middleman-blog", :git => "https://github.com/middleman/middleman-blog.git"
 
 gem 'handlebars_assets'
 gem 'octokit'
