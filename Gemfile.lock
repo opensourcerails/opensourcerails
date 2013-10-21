@@ -184,11 +184,11 @@ DEPENDENCIES
   guard-shell
   handlebars_assets
   json
-  middleman (>= 3.0.6)
+  middleman (~> 3.1.6)
   middleman-blog!
   middleman-bourbon
   middleman-deploy
-  octokit (~> 1.25)
+  octokit (~> 1.24)
   rack-livereload (>= 0.3.4)
   rake
   redcarpet (~> 1.17.2)

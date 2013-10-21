@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 gem "rake"
 gem "activesupport"
-gem "middleman", ">= 3.0.6"
+gem "middleman", "~> 3.1.6"
 gem "middleman-bourbon"
 gem "middleman-deploy"
 gem "middleman-blog", :git => "https://github.com/middleman/middleman-blog.git"
 
 gem 'handlebars_assets'
-gem 'octokit', "~> 1.25"
+gem 'octokit', "~> 1.24"
 # gem "imagesize"
 gem "redcarpet", "~> 1.17.2"
 gem "builder"
