@@ -8,7 +8,7 @@ gem "middleman-deploy"
 gem "middleman-blog", :git => "https://github.com/middleman/middleman-blog.git"
 
 gem 'handlebars_assets'
-gem 'octokit'
+gem 'octokit', "~> 1.25"
 # gem "imagesize"
 gem "redcarpet", "~> 1.17.2"
 gem "builder"
