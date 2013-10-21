@@ -453,13 +453,29 @@
     work through lessons, ask questions, upload programs, and everything else you see
     on Hackety.com
 
+-
+  id: "discourse"
+  title: "Discourse"
+  tagline: "next-generation discussion platform"
+  github_project: "discourse/discourse"
+  site_url: "http://www.discourse.org"
+  demo_url: "http://try.discourse.org"
+  twitter: "discourse"
+  screencast_url: ""
+  categories:
+    - "Forums"
+    - "Collaboration"
 
+  description: |
+    **Discourse is the 100% open source, next-generation discussion platform
+    built for the next decade of the Internet**
 
+    Discourse is a from-scratch reboot, an attempt to reimagine what a modern, sustainable, fully open-source Internet discussion platform should be today – both from a technology standpoint and a sociology standpoint.
 
-
-
-
-
-
-
+    * Conversations, not pages
+    * Real time updates
+    * Log in with ... anything
+    * Moderation that scales with the community
+    * Bring your friends
+    * Comprehensive API
 
