@@ -479,3 +479,25 @@
     * Bring your friends
     * Comprehensive API
 
+-
+  id: "phrasing"
+  title: "Phrasing"
+  tagline: "inline copy editing gem"
+  github_project: "infinum/phrasing"
+  site_url: "http://infinum.github.io/phrasing/"
+  twitter: "infinum_hr"
+  screencast_url: "http://www.youtube.com/watch?v=wOqzulEzNsY"
+  categories:
+    - "CMS/Blogging"
+    - "Rails Engine"
+
+  description: |
+    **Phrasing is an inline live content editing gem that can be installed to any Rails application so anyone can manage content and 
+    get a preview of what those changes will look like in real time.**
+
+    Features:
+
+    * Flexible authorization system
+    * Internationalization and localization support
+    * Inline editing of any attribute from any database table (this is pretty cool, check it out)
+    * Versioning
