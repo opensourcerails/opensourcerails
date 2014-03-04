@@ -31,7 +31,7 @@
   title: "GitLab"
   tagline: "self hosted Git management"
   github_project: "gitlabhq/gitlabhq"
-  site_url: "http://gitlabhq.org/"
+  site_url: "http://gitlab.org/"
   twitter: "gitlabhq"
   screencast_url: ""
   demo_url: "http://demo.gitlab.com/"
