@@ -31,17 +31,18 @@
   title: "GitLab"
   tagline: "self hosted Git management"
   github_project: "gitlabhq/gitlabhq"
-  site_url: "http://gitlabhq.com/"
+  site_url: "http://gitlabhq.org/"
   twitter: "gitlabhq"
   screencast_url: ""
+  demo_url: "http://demo.gitlab.com/"
+  demo_notes: "Email: test@test.com / Password: 123456"
   categories:
     - "Collaboration"
     - "Developers"
   description: |
     **Self hosted Git management software**
 
-    Fast and easy Git repositories, hosted either on your own or at Gitlab.com,
-    based on [Gitolite](https://github.com/sitaramc/gitolite).
+    Fast and easy Git repositories, hosted either on your own or at Gitlab.com.
 
     * **Gitlab:** create projects and repositories, manage access and perform
       collaborative code reviews/merges.
