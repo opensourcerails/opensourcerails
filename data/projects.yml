@@ -502,3 +502,17 @@
     * Internationalization and localization support
     * Inline editing of any attribute from any database table (this is pretty cool, check it out)
     * Versioning
+
+-
+  id: "onebody"
+  title: "OneBody"
+  tagline: "private member portal for churches"
+  github_project: "churchio/onebody"
+  site_url: "https://church.io/"
+  twitter: "church_io"
+  categories:
+    - "Social"
+
+  description: |
+    **OneBody is open-source, web-based social networking, email list, online directory, and
+    lightweight document management software for churches.**
