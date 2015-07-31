@@ -50,10 +50,10 @@
       with Gitlab.
 -
   id: "diaspora"
-  title: "Diaspora"
+  title: "diaspora*"
   tagline: "community-run, distributed social-network"
   github_project: "diaspora/diaspora"
-  site_url: "https://joindiaspora.com/"
+  site_url: "https://diasporafoundation.org"
   twitter: "joindiaspora"
   screencast_url: ""
   categories:
@@ -62,13 +62,14 @@
   description: |
     **Distributed social network**
 
-    Unlike centralized social networks (eg, Facebook), Diaspora has no central
+    Unlike centralized social networks (eg, Facebook), diaspora* has no central
     system that owns all user data. Distributed *pods* act as web
     servers, and connect to other pods, forming a connected social network.
 
-    * **Self host:** host a pod yourself and connect to the Diaspora network
+    * **Self host:** host a pod yourself and connect to the diaspora* network
       without registering on anyone else's server.
-    * **No lock-in:** migrate pods or export all of your user data.
+    * **Community governed:** anyone can help shape the network by either
+      writing code or helping with community governance.
 -
   id: "redmine"
   title: "Redmine"
