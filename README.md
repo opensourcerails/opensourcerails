@@ -1,5 +1,7 @@
 # OpenSourceRails
 
+[![Join the chat at https://gitter.im/opensourcerails/opensourcerails](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opensourcerails/opensourcerails?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to the new Open Source Rails. We've revamped the site as a simple static site generator for more speed, easier updates, and maintenance by a larger open source community.
 
 ## Contributing
