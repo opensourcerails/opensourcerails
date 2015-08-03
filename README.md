@@ -37,11 +37,29 @@ You can also start [Guard](https://github.com/guard/guard) in a new Terminal tab
 
 ### Deploying
 
+OpenSourceRails is hosted on [Divshot](http://www.divshot.com). If you are a maintainer and you don't have access, then email us at opensourcerails@gmail.com.
+
+Setup divshot first:
+
+    npm install -g divshot-cli
+
+    divshot login
+
 To deploy to opensourcerails.com, just run:
 
-    rake github_data && bundle exec middleman build && bundle exec middleman deploy
+    rake deploy
 
-If you think you should have access to deploy but don't submit a new Github Issue with your SSH public key in it, and we'll add you to the `authorized_keys` on the server.
+This will pull the latest dynamic github data, rebuild the middleman site, then push to divshot development environment.
+
+You can then view the site at <http://development.opensourcerails.divshot.com>
+
+Once it's verified and looks good, run the following command to push to production:
+    
+    divshot promote development production
+
+
+
+#### Github rate limits
 
 If you get github exceptions about rate limitations (default is just 60/per hour per ip address), you'll need to authenticate your machine via `.netrc`
 
@@ -59,3 +77,22 @@ The visual design / styles for this site is copyrighted and not owned by Open So
 Aside from the JS and CSS, all other code for this site is licensed under MIT.
 
 
+### Maintainers
+
+* [Jacques Crocker](https://github.com/railsjedi)
+
+* [Mario Đanić](https://github.com/mario)
+
+* [Chris Lee](https://github.com/cglee)
+
+* [Kevin Wang](https://github.com/knwang)
+
+* [Ivo Benedito](https://github.com/ivobenedito)
+
+* [m.b.](https://github.com/mbajur)
+
+* [Rich Lengsavath](https://github.com/humanbagel)
+
+* [Ash Bhoopathy](https://github.com/yakshaving)
+
+Want to help maintain opensourcerails? It involves looking at projects, helping organize screenshots, and collaborating with the other maintainer team. About 1hr a week. Email us at <opensourcerails@gmail.com> and we'll get you on it.

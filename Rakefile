@@ -39,10 +39,13 @@ end
 
 desc "Deploy project"
 task :deploy do
-  puts "Deploying: TODO"
+  puts "Deploying"
 
   # first regenerate github data
   Rake::Task["github_data"].invoke
+
+  system("middleman build")
+
 
   # run deploy command
   # show a growl alert afterwards

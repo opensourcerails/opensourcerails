@@ -73,18 +73,11 @@ handlebars_gem_dir = Gem::Specification.find_by_name("handlebars_assets").gem_di
 #  "#{handlebars_gem_dir}/vendor/assets/js/",
 #]
 
-after_configuration do  
+after_configuration do
   sprockets.append_path "#{handlebars_gem_dir}/vendor/assets/js/"
 end
 
 set :images_dir, 'img'
-
-activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.user = "railsjedi"
-  deploy.host = "crate.dreamhost.com"
-  deploy.path = "/home/railsjedi/opensourcerails.com/public"
-end
 
 require "lib/rails_helpers"
 helpers RailsHelpers

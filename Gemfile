@@ -4,7 +4,6 @@ gem "rake"
 gem "activesupport"
 gem "middleman", "~> 3.1.6"
 gem "middleman-bourbon"
-gem "middleman-deploy"
 gem "middleman-blog", :git => 'https://github.com/middleman/middleman-blog.git', :ref => 'd04f0'
 
 gem 'handlebars_assets'
