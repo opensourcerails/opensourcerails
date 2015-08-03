@@ -44,8 +44,9 @@ task :deploy do
   # first regenerate github data
   Rake::Task["github_data"].invoke
 
-  system("middleman build")
+  system("middleman build --verbose")
 
+  system("divshot push")
 
   # run deploy command
   # show a growl alert afterwards
