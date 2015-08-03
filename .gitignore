@@ -18,4 +18,6 @@
 /source/.DS_Store
 .rvmrc
 .divshot-cache
+divshot-debug.log
 /data/github.yml
+/data/slack.yml

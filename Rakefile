@@ -48,6 +48,9 @@ task :deploy do
 
   system("divshot push")
 
+  # slack notification
+  # TODO: (data/slack.yml)
+
   # run deploy command
   # show a growl alert afterwards
 end
