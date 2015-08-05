@@ -520,3 +520,22 @@
     behalf. Huginn's Agents create and consume events, propagating them along a
     directed graph. Think of it as a hackable Yahoo! Pipes plus IFTTT on your
     own server. You always know who has your data. You do.
+
+-
+  id: "openproject"
+  title: "OpenProject"
+  tagline: "project management system"
+  github_project: "opf/openproject"
+  site_url: "https://www.openproject.org/"
+  twitter: "openproject"
+  screencast_url: "https://www.youtube.com/watch?v=ZYsZn8R1q_k"
+  categories:
+    - "Collaboration"
+    - "Developers"
+    - "Project Management"
+
+  description: |
+    OpenProject is a web-based project management software. Users are invited to
+    join the OpenProject community and to contribute to the open source software
+    code. Currently, the software is used by large enterprises which operate
+    globally.
