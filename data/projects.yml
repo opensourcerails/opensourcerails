@@ -596,3 +596,23 @@
     - Manage billing for your multiple sister companies under one account
     - Export invoices to PDF
     - Reports like Payments Collected, Aged Accounts Receivable, Revenue By Client, Items Sales and more to come
+
+-
+  id: "people"
+  title: "People"
+  tagline: "Easily manage people within the projects"
+  github_project: "netguru/people"
+  categories:
+    - "Developers"
+    - "Project Management"
+    - "Collaboration"
+
+  description: |
+    **The main purpose of the app is to manage people within the projects.**
+
+    The main table shows the current teams in each project, but you can also add
+    people who will start working on the project in the future, and see the
+    people who are going to join or leave the project team by clicking “highlight
+    ending” and “highlight next”. The app also gathers the information about a
+    team member, like role, telephone number, github nick, or the city in which
+    we work.
