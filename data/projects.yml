@@ -520,3 +520,19 @@
     behalf. Huginn's Agents create and consume events, propagating them along a
     directed graph. Think of it as a hackable Yahoo! Pipes plus IFTTT on your
     own server. You always know who has your data. You do.
+
+-
+  id: "barkeep"
+  title: "Barkeep"
+  tagline: "The friendly code review system"
+  github_project: "ooyala/barkeep"
+  site_url: "http://getbarkeep.org"
+  categories:
+    - "Collaboration"
+    - "Developers"
+
+  description: |
+    Barkeep is "the friendly code review system" — a fast, fun way to review
+    code. Engineering organizations can use it to **keep the quality bar high**.
+    With it you can watch commits made to any Git repository, see diffs, write
+    comments, and have those comments emailed to your fellow committers.
