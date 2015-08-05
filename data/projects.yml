@@ -511,7 +511,7 @@
   github_project: "cantino/huginn"
   screencast_url: "https://vimeo.com/61976251"
   categories:
-    - "Tools"
+    - "Misc"
   description: |
     **Build agents that monitor and act on your behalf. Your agents are standing by!**
 
@@ -572,3 +572,27 @@
     development, testing for software teams) and add any tag they like to it.
     This gives us a lot of insight on how we spend our time on different
     projects.
+
+-
+  id: "open-source-billing"
+  title: "Open Source Billing"
+  tagline: "Beautifully Simple Billing Software"
+  github_project: "vteams/open-source-billing"
+  site_url: "http://opensourcebilling.org/"
+  categories:
+    - "Misc"
+
+  description: |
+    **A beautiful and super simple software to create and send invoices and
+    receive payments online.**
+
+    - A nice looking Dashboard with graph and your key metrics
+    - Create and send invoices to your clients
+    - Recurring invoices
+    - Enter payments against sent invoices
+    - Partial payments tracking
+    - Receive payments through Paypal and credit card
+    - Invoice dispute management
+    - Manage billing for your multiple sister companies under one account
+    - Export invoices to PDF
+    - Reports like Payments Collected, Aged Accounts Receivable, Revenue By Client, Items Sales and more to come
