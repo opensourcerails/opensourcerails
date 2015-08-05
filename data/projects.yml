@@ -596,3 +596,22 @@
     - Manage billing for your multiple sister companies under one account
     - Export invoices to PDF
     - Reports like Payments Collected, Aged Accounts Receivable, Revenue By Client, Items Sales and more to come
+
+-
+  id: "help"
+  title: "Help"
+  tagline: "Small help requests system"
+  github_project: "netguru/help"
+  categories:
+    - "Misc"
+
+  description: |
+    This application is a simple, easy to run support system for your team. It's
+    ment to be used internally, to encourage your team members to help each
+    other.
+
+    The flow is quite simple:
+
+    - we sign in users with google apps
+    - every user selects the topics, he feels he can help with
+    - user seeking for help picks the topic from the list and application will randomly assign somebody to help him (from the list of users that marked the topic as their skill)
