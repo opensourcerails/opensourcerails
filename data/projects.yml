@@ -553,3 +553,22 @@
   description: |
     Hound comments on style violations in GitHub pull requests, allowing you and
     your team to better review and maintain a clean codebase.
+
+-
+  id: "hours"
+  title: "Hours"
+  tagline: "Time registration that doesn't suck."
+  github_project: "DefactoSoftware/Hours"
+  site_url: "https://happyhours.io/"
+  categories:
+    - "Developers"
+    - "Project Management"
+    - "Collaboration"
+
+  description: |
+    Hours is a dead simple project based time tracking application that we use
+    for internal time-tracking. It allows users to register how many hours
+    they've worked on a project with a certain category (think design, software
+    development, testing for software teams) and add any tag they like to it.
+    This gives us a lot of insight on how we spend our time on different
+    projects.
