@@ -539,3 +539,17 @@
     join the OpenProject community and to contribute to the open source software
     code. Currently, the software is used by large enterprises which operate
     globally.
+
+-
+  id: "hound"
+  title: "Hound"
+  tagline: "Your code, always in style."
+  github_project: "thoughtbot/hound"
+  site_url: "https://houndci.com/"
+  twitter: "houndci"
+  categories:
+    - "Developers"
+
+  description: |
+    Hound comments on style violations in GitHub pull requests, allowing you and
+    your team to better review and maintain a clean codebase.
