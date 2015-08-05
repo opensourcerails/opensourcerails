@@ -494,7 +494,7 @@
     - "Rails Engine"
 
   description: |
-    **Phrasing is an inline live content editing gem that can be installed to any Rails application so anyone can manage content and 
+    **Phrasing is an inline live content editing gem that can be installed to any Rails application so anyone can manage content and
     get a preview of what those changes will look like in real time.**
 
     Features:
@@ -503,3 +503,20 @@
     * Internationalization and localization support
     * Inline editing of any attribute from any database table (this is pretty cool, check it out)
     * Versioning
+
+-
+  id: "huginn"
+  title: "Huginn"
+  tagline: "Open source IFTTT"
+  github_project: "cantino/huginn"
+  screencast_url: "https://vimeo.com/61976251"
+  categories:
+    - "Tools"
+  description: |
+    **Build agents that monitor and act on your behalf. Your agents are standing by!**
+
+    Huginn is a system for building agents that perform automated tasks for you
+    online. They can read the web, watch for events, and take actions on your
+    behalf. Huginn's Agents create and consume events, propagating them along a
+    directed graph. Think of it as a hackable Yahoo! Pipes plus IFTTT on your
+    own server. You always know who has your data. You do.
