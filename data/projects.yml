@@ -615,3 +615,22 @@
     - we sign in users with google apps
     - every user selects the topics, he feels he can help with
     - user seeking for help picks the topic from the list and application will randomly assign somebody to help him (from the list of users that marked the topic as their skill)
+
+-
+  id: "loomio"
+  title: "Loomio"
+  tagline: "make decisions together"
+  github_project: "loomio/loomio"
+  site_url: "http://www.loomio.org"
+  screencast_url: "https://www.youtube.com/watch?v=ZipyebSY2Lo"
+  twitter: Loomio
+  categories:
+    - "Misc"
+    - "Collaboration"
+
+  description: |
+    Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions which affect them.
+
+    - **Talk things through** - Start a discussion on any topic, and bring in the right people. Share diverse perspectives and develop ideas together.
+    - **Build agreement** - Anyone can propose a course of action. People can agree, abstain, disagree, or block – so you can see how everyone feels, and why.
+    - **Decide together** - Develop the proposal together so that it works for everyone. Every decision has a clear deadline, so you always get a clear outcome.
