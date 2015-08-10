@@ -621,6 +621,9 @@
   title: "Loomio"
   tagline: "make decisions together"
   github_project: "loomio/loomio"
+  site_url: "http://www.loomio.org"
+  screencast_url: "https://www.youtube.com/watch?v=ZipyebSY2Lo"
+  twitter: Loomio
   categories:
     - "Misc"
     - "Collaboration"
