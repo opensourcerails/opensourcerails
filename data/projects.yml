@@ -634,3 +634,20 @@
     - **Talk things through** - Start a discussion on any topic, and bring in the right people. Share diverse perspectives and develop ideas together.
     - **Build agreement** - Anyone can propose a course of action. People can agree, abstain, disagree, or block – so you can see how everyone feels, and why.
     - **Decide together** - Develop the proposal together so that it works for everyone. Every decision has a clear deadline, so you always get a clear outcome.
+
+-
+  id: "openstreetmap"
+  title: "OpenStreetMap"
+  tagline: "crowd-sourced map of the world"
+  github_project: "openstreetmap/openstreetmap-website"
+  site_url: "http://osm.org"
+  twitter: openstreetmap
+  categories:
+    - "Misc"
+
+  description: |
+    **OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.**
+
+    - **Local Knowledge** - OpenStreetMap emphasizes local knowledge. Contributors use aerial imagery, GPS devices, and low-tech field maps to verify that OSM is accurate and up to date.
+    - **Community Driven** - OpenStreetMap's community is diverse, passionate, and growing every day. Our contributors include enthusiast mappers, GIS professionals, engineers running the OSM servers, humanitarians mapping disaster-affected areas, and many more. To learn more about the community, see the [user diaries](http://www.openstreetmap.org/diary), [community blogs](http://blogs.openstreetmap.org/), and the [OSM Foundation](http://www.osmfoundation.org/) website.
+    - **Open Data** - OpenStreetMap is open data: you are free to use it for any purpose as long as you credit OpenStreetMap and its contributors. If you alter or build upon the data in certain ways, you may distribute the result only under the same licence. See the [Copyright and License](http://www.openstreetmap.org/copyright) page for details.
