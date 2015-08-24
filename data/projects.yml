@@ -651,3 +651,21 @@
     - **Local Knowledge** - OpenStreetMap emphasizes local knowledge. Contributors use aerial imagery, GPS devices, and low-tech field maps to verify that OSM is accurate and up to date.
     - **Community Driven** - OpenStreetMap's community is diverse, passionate, and growing every day. Our contributors include enthusiast mappers, GIS professionals, engineers running the OSM servers, humanitarians mapping disaster-affected areas, and many more. To learn more about the community, see the [user diaries](http://www.openstreetmap.org/diary), [community blogs](http://blogs.openstreetmap.org/), and the [OSM Foundation](http://www.osmfoundation.org/) website.
     - **Open Data** - OpenStreetMap is open data: you are free to use it for any purpose as long as you credit OpenStreetMap and its contributors. If you alter or build upon the data in certain ways, you may distribute the result only under the same licence. See the [Copyright and License](http://www.openstreetmap.org/copyright) page for details.
+
+-
+  id: "travisci"
+  title: "Travis CI"
+  tagline: "continuous integration platform for GitHub projects"
+  github_project: "travis-ci/travis-ci"
+  site_url: "https://travis-ci.org/"
+  twitter: travisci
+  categories:
+    - "Developers"
+
+  description: |
+    **Travis CI is a hosted continuous integration and deployment system.**
+
+    - **Get set up in seconds** - Login with GitHub, tell Travis CI to test a project, and then push to GitHub. Could it be any simpler!
+    - **Multi-language support** - Make sure your code runs against all versions of your favorite language without breaking a sweat.
+    - **Test your pull requests** - Make sure every pull request to your project is tested before merging.
+    - **Deploy to S3 and Heroku** - Updating staging or production as soon as your tests pass has never been easier!
