@@ -669,3 +669,18 @@
     - **Multi-language support** - Make sure your code runs against all versions of your favorite language without breaking a sweat.
     - **Test your pull requests** - Make sure every pull request to your project is tested before merging.
     - **Deploy to S3 and Heroku** - Updating staging or production as soon as your tests pass has never been easier!
+
+-
+  id: "rubygems"
+  title: "RubyGems"
+  tagline: "The Ruby community's gem hosting service"
+  github_project: "rubygems/rubygems.org"
+  site_url: "https://rubygems.org/"
+  categories:
+    - "Developers"
+
+  description: |
+    RubyGems.org is the Ruby community’s gem hosting service. Instantly publish
+    your gems and install them. Use the API to interact and find out more
+    information about available gems. Become a contributor and enhance the site
+    with your own changes.
