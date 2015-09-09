@@ -684,3 +684,19 @@
     your gems and install them. Use the API to interact and find out more
     information about available gems. Become a contributor and enhance the site
     with your own changes.
+
+-
+  id: "spina"
+  title: "Spina CMS"
+  tagline: "A beautiful CMS for Rails developers"
+  github_project: "denkGroot/Spina"
+  site_url: "http://www.spinacms.com/"
+  screencast_url: "https://vimeo.com/128853400"
+  categories:
+    - "CMS/Blogging"
+
+  description: |
+    - **Beautifully simple** - We believe a CMS should offer just the right amount of tools to manage your website. Nothing more, nothing less.
+    - **Extendable** - Every client is unique. By extending Spina in just the right ways every theme can be tailor made for optimal usability.
+    - **Wysiwyg** - Text editing using the beautifully simple wysihtml5 editor.
+    - **User friendly** - Spina was designed for our clients. Most of them don't sit behind computers all day long like us, so it's essential they comprehend the user interface.
