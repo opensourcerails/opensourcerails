@@ -700,3 +700,21 @@
     - **Extendable** - Every client is unique. By extending Spina in just the right ways every theme can be tailor made for optimal usability.
     - **Wysiwyg** - Text editing using the beautifully simple wysihtml5 editor.
     - **User friendly** - Spina was designed for our clients. Most of them don't sit behind computers all day long like us, so it's essential they comprehend the user interface.
+
+-
+  id: "sharetribe"
+  title: "ShareTribe"
+  tagline: "Marketplace platform"
+  github_project: "sharetribe/sharetribe"
+  site_url: "https://www.sharetribe.com/"
+  screencast_url: https://www.youtube.com/watch?v=AISCnwHYosc
+  categories:
+    - "E-Commerce"
+    - "Misc"
+
+  description: |
+    The easiest way to get started with your marketplace business.
+
+    - **Product selling, rentals, services** - Need a marketplace where people can sell their products? Is your idea to facilitate peer-to-peer rentals? Or maybe a site for booking services? No worries - we support all types of marketplaces! Your merchants and buyers can be individuals or companies.
+    - **Global payments made simple** - Sharetribe's built-in payment system allows your merchants to accept both PayPal and all of major credit cards. It works in 190+ countries and in 25+ currencies. You can easily charge a fee from each transaction.
+    - **Manage your marketplace. You are in control** - Easily manage and moderate your marketplace from our admin dashboard. Connect Google Analytics to get a detailed view of what is going on.
