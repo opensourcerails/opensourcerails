@@ -56,7 +56,7 @@ This will pull the latest dynamic github data, rebuild the middleman site, then 
 You can then view the site at <http://development.opensourcerails.divshot.com>
 
 Once it's verified and looks good, run the following command to push to production:
-    
+
     divshot promote development production
 
 
@@ -65,9 +65,9 @@ Once it's verified and looks good, run the following command to push to producti
 
 If you get github exceptions about rate limitations (default is just 60/per hour per ip address), you'll need to authenticate your machine via `.netrc`
 
-    echo 'machine api.github.com login mygithubusername password MyPasswordHere111' >> ~/.netrc
+    echo 'machine api.github.com login MyGithubUserName password MyAccessToken' >> ~/.netrc
 
-replace `mygithubusername` and `MyPasswordHere111` with your actual github username/password
+replace `MyGithubUserName` and `MyAccessToken` with your github username and personal access token ([create an access token here](https://github.com/settings/tokens)). 
 
 If this is there, then it shouldn't have a problem with the rate limit (its bumped to 5k/hr).
 
