@@ -735,3 +735,17 @@
     - **Make connections** - Connect with your peers from around the world
     - **Share protips** - Learn from experts or share your own tips, tricks and best practices
     - **Represent your team** - Gather your team mates from work to establish your team's geek cred
+
+-
+  id: "samson"
+  title: "Samson"
+  tagline: "Web interface for deployments"
+  github_project: "zendesk/samson"
+  site_url: "https://coderwall.com/"
+  categories:
+    - "Developers"
+
+  description: |
+    - View the current status of all your projects
+    - Allow anyone to watch deploys as they happen
+    - View all recent deploys across all projects
