@@ -39,26 +39,18 @@ You can also start [Guard](https://github.com/guard/guard) in a new Terminal tab
 
 ### Deploying
 
-OpenSourceRails is hosted on [Divshot](http://www.divshot.com). If you are a maintainer and you don't have access, then email us at opensourcerails@gmail.com.
+OpenSourceRails is hosted on [Netlify](http://www.netlify.com). If you are a maintainer and you don't have access, then email us at opensourcerails@gmail.com.
 
-Setup divshot first:
+Setup Netlify first:
 
-    npm install -g divshot-cli
+    npm install -g netlify-cli
 
-    divshot login
 
 To deploy to opensourcerails.com, just run:
 
     rake deploy
 
-This will pull the latest dynamic github data, rebuild the middleman site, then push to divshot development environment.
-
-You can then view the site at <http://development.opensourcerails.divshot.com>
-
-Once it's verified and looks good, run the following command to push to production:
-
-    divshot promote development production
-
+This will pull the latest dynamic github data, rebuild the middleman site, then push to Netflify server.
 
 
 #### Github rate limits
@@ -67,7 +59,7 @@ If you get github exceptions about rate limitations (default is just 60/per hour
 
     echo 'machine api.github.com login MyGithubUserName password MyAccessToken' >> ~/.netrc
 
-replace `MyGithubUserName` and `MyAccessToken` with your github username and personal access token ([create an access token here](https://github.com/settings/tokens)). 
+replace `MyGithubUserName` and `MyAccessToken` with your github username and personal access token ([create an access token here](https://github.com/settings/tokens)).
 
 If this is there, then it shouldn't have a problem with the rate limit (its bumped to 5k/hr).
 

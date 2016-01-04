@@ -45,9 +45,8 @@ task :deploy do
   Rake::Task["github_data"].invoke
 
   system("middleman build --verbose")
-
-  system("divshot push")
-
+  system("netlify deploy -p ./build -s pump-attendant-college-66433")
+  
   # slack notification
   # TODO: (data/slack.yml)
 
