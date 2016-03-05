@@ -441,7 +441,7 @@
   title: "Hackety Hack"
   tagline: "learn the basics of programming with Ruby"
   github_project: "hacketyhack/hackety-hack.com"
-  site_url: "http://hackety.com"
+  site_url: "http://www.hackety.com"
   twitter: "hacketyhack"
   screencast_url: ""
   categories:
@@ -749,3 +749,29 @@
     - View the current status of all your projects
     - Allow anyone to watch deploys as they happen
     - View all recent deploys across all projects
+
+-
+  id: "helpy"
+  title: "Helpy"
+  tagline: "A Modern Helpdesk Alternative"
+  github_project: "scott/helpy"
+  site_url: "http://helpy.io/"
+  demo_url: "http://demo.helpy.io"
+  twitter: "helpyapp"
+  screencast_url: ""
+  categories:
+    - "Misc"
+    - "Business"
+  description: |
+    **Helpy is a modern, "mobile-first" helpdesk, designed to provide an alternative to commercial
+    solutions like Zendesk or Desk.com**
+
+    Includes email support ticketing, multi-language knowledgebase and a
+    community support function.
+
+    - **Email Support Tickets:** integrated with Sendgrid, Mailgun, or Mailin.
+    - **Knowledgebase:** Full text searchable and SEO optimized.
+    - **Cummunity Support Forums:** Customers and Agents can both answer questions in a public forum.
+    - **Pre-wired for Google Analytics:** Track everything from article satisfaction to what your agents are doing automatically.
+    - **Mobile-First:** Responsive design, works on all devices!
+    - **Multi-language:** Provide support in multiple languages at the same time.
