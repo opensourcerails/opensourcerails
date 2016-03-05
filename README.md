@@ -39,11 +39,11 @@ You can also start [Guard](https://github.com/guard/guard) in a new Terminal tab
 
 ### Deploying
 
-OpenSourceRails is hosted on [Netlify](http://www.netlify.com). If you are a maintainer and you don't have access, then email us at opensourcerails@gmail.com.
+OpenSourceRails is hosted on [Surge](http://www.surge.sh). If you are a maintainer and you don't have access, then email us at opensourcerails@gmail.com.
 
-Setup Netlify first:
+Setup Surge first:
 
-    npm install -g netlify-cli
+    npm install -g surge
 
 
 To deploy to opensourcerails.com, just run:
