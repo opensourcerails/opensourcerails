@@ -775,3 +775,27 @@
     - **Pre-wired for Google Analytics:** Track everything from article satisfaction to what your agents are doing automatically.
     - **Mobile-First:** Responsive design, works on all devices!
     - **Multi-language:** Provide support in multiple languages at the same time.
+
+-
+  id: "manageiq"
+  title: "ManageIQ"
+  tagline: "Automate, optimize, and control your cloud and virtualization services"
+  github_project: "ManageIQ/manageiq"
+  site_url: "http://manageiq.org/"
+  twitter: "manageiq"
+  categories:
+    - "Cloud Management"
+    - "Infrastructure"
+    - "Virtualization"
+  description: |
+    **ManageIQ is a cloud management platform (CMP) that adds additional
+    capabilities to your existing virtualization, private cloud, and hybrid
+    cloud infrastructure.**
+
+    Manage the lifecycle of your applications, place virtual workloads
+    according to your business priorities, and — automatically through policies
+    you set — balance your costs, performance, security, and reliability across
+    cloud platforms. ManageIQ lets you control everything, completely, from one
+    end of a virtual machine lifecycle to the other.
+
+    ManageIQ is the open source project that powers [Red Hat® CloudForms](http://www.redhat.com/en/technologies/cloud-computing/cloudforms).
