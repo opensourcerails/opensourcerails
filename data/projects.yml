@@ -31,23 +31,21 @@
   title: "GitLab"
   tagline: "self hosted Git management"
   github_project: "gitlabhq/gitlabhq"
-  site_url: "http://gitlab.com/"
+  site_url: "https://about.gitlab.com/"
   twitter: "gitlabhq"
   screencast_url: ""
-  demo_url: "http://demo.gitlab.com/"
-  demo_notes: "Email: test@test.com / Password: 123456"
   categories:
     - "Collaboration"
     - "Developers"
   description: |
     **Self hosted Git management software**
 
-    Fast and easy Git repositories, hosted either on your own or at Gitlab.com.
+    Fast and easy Git repositories, hosted either on your own or at GitLab.com.
 
-    * **Gitlab:** create projects and repositories, manage access and perform
+    * **GitLab:** create projects and repositories, manage access and perform
       collaborative code reviews/merges.
-    * **Gitlab CI:** self hosted continuous integration server closely integrated
-      with Gitlab.
+    * **GitLab CI:** self hosted continuous integration server closely integrated
+      with GitLab.
 -
   id: "diaspora"
   title: "diaspora*"
