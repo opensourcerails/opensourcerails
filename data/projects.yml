@@ -687,7 +687,7 @@
   id: "spina"
   title: "Spina CMS"
   tagline: "A beautiful CMS for Rails developers"
-  github_project: "denkGroot/Spina"
+  github_project: "SpinaCMS/Spina"
   site_url: "http://www.spinacms.com/"
   screencast_url: "https://vimeo.com/128853400"
   categories:
